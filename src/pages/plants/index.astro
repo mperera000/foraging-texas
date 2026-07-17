@@ -1,23 +1,126 @@
 ---
-// Phase 2 skeleton wrapped in the real chrome. Phase 4 replaces the list with the browse grid.
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import PlantCard from "../../components/PlantCard.astro";
 
 const plants = (await getCollection("plants")).sort((a, b) =>
   a.data.name.localeCompare(b.data.name)
 );
+
+// Filter vocabularies derived from the data, never hardcoded.
+const types = [...new Set(plants.map((p) => p.data.type))].sort();
+const uses = [...new Set(plants.flatMap((p) => p.data.uses))].sort();
+const regions = ["East", "Central", "West"].filter((r) =>
+  plants.some((p) => p.data.regions.includes(r as never))
+);
 ---
 
 <Layout title="All plants · Merriwether's Foraging Texas">
-  <main class="mx-auto max-w-2xl px-6 py-12">
-    <h1 class="mb-6 font-display text-4xl">All plants ({plants.length})</h1>
-    <ul class="space-y-2">
+  <main class="mx-auto max-w-6xl px-6">
+    <div class="pt-14">
+      <h1 class="font-display text-5xl tracking-tight text-ink max-sm:text-4xl">Every plant in the guide</h1>
+      <p class="mt-3 max-w-[56ch] text-muted">
+        Filter by what it is, what it gives you, where it grows, or what's ready to pick today.
+      </p>
+    </div>
+
+    <div id="filters" class="flex flex-wrap gap-2 pt-8" data-enhance>
+      <button data-f="all" class="rounded-full border-[1.5px] border-forest bg-forest px-4 py-2 text-sm font-semibold text-cream">All</button>
+      <button data-f="season" class="rounded-full border-[1.5px] border-line bg-cream px-4 py-2 text-sm font-semibold text-ink hover:border-forest">In season now</button>
+      {types.map((v) => (
+        <button data-f={`type:${v}`} class="rounded-full border-[1.5px] border-line bg-cream px-4 py-2 text-sm font-semibold text-ink hover:border-forest">{v}</button>
+      ))}
+      {uses.map((v) => (
+        <button data-f={`use:${v}`} class="rounded-full border-[1.5px] border-line bg-cream px-4 py-2 text-sm font-semibold text-ink hover:border-forest">{v}</button>
+      ))}
+      {regions.map((v) => (
+        <button data-f={`region:${v}`} class="rounded-full border-[1.5px] border-line bg-cream px-4 py-2 text-sm font-semibold text-ink hover:border-forest">{v}</button>
+      ))}
+    </div>
+
+    <p id="count" class="mt-5 text-sm text-muted" aria-live="polite">
+      <b class="text-ink">{plants.length}</b> of {plants.length} plants shown
+    </p>
+
+    <ul id="grid" class="mt-6 grid list-none grid-cols-1 gap-7 p-0 sm:grid-cols-2 lg:grid-cols-3">
       {plants.map((p) => (
-        <li>
-          <a href={`/plants/${p.id}`} class="font-bold text-forest underline underline-offset-2">{p.data.name}</a>
-          <span class="italic text-muted"> · {p.data.latin}</span>
+        <li
+          data-type={p.data.type}
+          data-uses={p.data.uses.join(",")}
+          data-regions={p.data.regions.join(",")}
+          data-months={p.data.months.join(",")}
+        >
+          <PlantCard plant={p} />
         </li>
       ))}
     </ul>
+
+    <div id="empty" hidden class="mt-10 rounded-3xl bg-paper-2 px-8 py-12 text-center">
+      <p class="font-display text-2xl text-ink">Nothing matches that combination.</p>
+      <p class="mx-auto mt-2 max-w-[44ch] text-muted">
+        The guide is still growing; try loosening a filter, or start over.
+      </p>
+      <button id="reset" class="mt-5 rounded-full bg-chart px-6 py-2.5 font-bold text-chart-ink">Show every plant</button>
+    </div>
   </main>
 </Layout>
+
+<script>
+  // Progressive enhancement: without this script the full grid simply shows.
+  const ACTIVE = ["border-forest", "bg-forest", "text-cream"];
+  const IDLE = ["border-line", "bg-cream", "text-ink", "hover:border-forest"];
+  const month = new Date().getMonth() + 1;
+  const state: { season: boolean; type?: string; use?: string; region?: string } = { season: false };
+
+  const filters = document.getElementById("filters")!;
+  const cards = [...document.querySelectorAll<HTMLLIElement>("#grid li")];
+  const count = document.getElementById("count")!;
+  const empty = document.getElementById("empty")!;
+  const grid = document.getElementById("grid")!;
+
+  function paint() {
+    filters.querySelectorAll<HTMLButtonElement>("button").forEach((b) => {
+      const f = b.dataset.f!;
+      const on =
+        (f === "all" && !state.season && !state.type && !state.use && !state.region) ||
+        (f === "season" && state.season) ||
+        f === `type:${state.type}` || f === `use:${state.use}` || f === `region:${state.region}`;
+      b.classList.remove(...ACTIVE, ...IDLE);
+      b.classList.add(...(on ? ACTIVE : IDLE));
+    });
+
+    let shown = 0;
+    for (const li of cards) {
+      const okSeason = !state.season || li.dataset.months!.split(",").includes(String(month));
+      const okType = !state.type || li.dataset.type === state.type;
+      const okUse = !state.use || li.dataset.uses!.split(",").includes(state.use);
+      const okRegion = !state.region || li.dataset.regions!.split(",").includes(state.region);
+      const ok = okSeason && okType && okUse && okRegion;
+      li.hidden = !ok;
+      if (ok) shown++;
+    }
+    count.innerHTML = `<b class="text-ink">${shown}</b> of ${cards.length} plants shown`;
+    empty.hidden = shown > 0;
+    grid.style.display = shown > 0 ? "" : "none";
+  }
+
+  filters.addEventListener("click", (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLButtonElement>("[data-f]");
+    if (!b) return;
+    const f = b.dataset.f!;
+    if (f === "all") Object.assign(state, { season: false, type: undefined, use: undefined, region: undefined });
+    else if (f === "season") state.season = !state.season;
+    else {
+      const [k, v] = f.split(":") as ["type" | "use" | "region", string];
+      state[k] = state[k] === v ? undefined : v;
+    }
+    paint();
+  });
+
+  document.getElementById("reset")!.addEventListener("click", () => {
+    Object.assign(state, { season: false, type: undefined, use: undefined, region: undefined });
+    paint();
+  });
+
+  paint();
+</script>
