@@ -1,31 +1,23 @@
 ---
-// Phase 2 skeleton: plain list proving the collection. Phase 4 replaces this with the browse grid.
+// Phase 2 skeleton wrapped in the real chrome. Phase 4 replaces the list with the browse grid.
 import { getCollection } from "astro:content";
-import "../../styles/global.css";
+import Layout from "../../layouts/Layout.astro";
 
 const plants = (await getCollection("plants")).sort((a, b) =>
   a.data.name.localeCompare(b.data.name)
 );
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex" />
-    <title>All plants · Foraging Texas</title>
-  </head>
-  <body>
-    <main class="mx-auto max-w-2xl px-6 py-12">
-      <h1 class="font-display text-4xl mb-6">All plants ({plants.length})</h1>
-      <ul class="space-y-2">
-        {plants.map((p) => (
-          <li>
-            <a href={`/plants/${p.id}`} class="font-bold text-forest underline underline-offset-2">{p.data.name}</a>
-            <span class="italic text-muted"> · {p.data.latin}</span>
-          </li>
-        ))}
-      </ul>
-    </main>
-  </body>
-</html>
+<Layout title="All plants · Merriwether's Foraging Texas">
+  <main class="mx-auto max-w-2xl px-6 py-12">
+    <h1 class="mb-6 font-display text-4xl">All plants ({plants.length})</h1>
+    <ul class="space-y-2">
+      {plants.map((p) => (
+        <li>
+          <a href={`/plants/${p.id}`} class="font-bold text-forest underline underline-offset-2">{p.data.name}</a>
+          <span class="italic text-muted"> · {p.data.latin}</span>
+        </li>
+      ))}
+    </ul>
+  </main>
+</Layout>

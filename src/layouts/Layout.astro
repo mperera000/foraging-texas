@@ -1,0 +1,74 @@
+---
+import "../styles/global.css";
+import Mark from "../components/Mark.astro";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "A field guide to the wild edible and medicinal plants of Texas, organized by what's in season right now." } = Astro.props;
+const nav = [
+  { href: "/", label: "Today" },
+  { href: "/plants", label: "All plants" },
+];
+const path = Astro.url.pathname;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />{/* not launching yet: PLAN.md §13a */}
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-dvh">
+    <nav class="sticky top-0 z-30 border-b border-line bg-paper">
+      <div class="mx-auto flex h-[70px] max-w-6xl items-center gap-5 px-6">
+        <a href="/" class="flex items-center gap-3 font-display text-lg tracking-tight text-ink no-underline">
+          <Mark />
+          <span class="max-sm:hidden">Merriwether's Foraging Texas</span>
+        </a>
+        <div class="ml-auto flex items-center gap-1">
+          {nav.map((item) => {
+            const active = item.href === "/" ? path === "/" : path.startsWith(item.href);
+            return (
+              <a
+                href={item.href}
+                aria-current={active ? "page" : undefined}
+                class:list={[
+                  "rounded-full px-4 py-2 text-sm font-semibold transition-colors",
+                  active ? "bg-chart text-chart-ink" : "text-ink hover:bg-paper-2",
+                ]}
+              >
+                {item.label}
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    </nav>
+
+    <slot />
+
+    <footer class="mt-24 bg-forest-deep text-cream/90">
+      <div class="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-[1.4fr_1fr]">
+        <div>
+          <p class="font-display text-2xl text-cream">Merriwether's Foraging Texas</p>
+          <p class="mt-3 max-w-[52ch] text-sm text-cream/70">
+            A redesign concept of foragingtexas.com, built as a portfolio study. Not the official site.
+          </p>
+          <p class="mt-2 max-w-[52ch] text-sm text-cream/70">
+            Educational only. Foraging carries real risk; identify every plant with multiple
+            sources before it touches your mouth.
+          </p>
+        </div>
+        <ul class="space-y-2 text-sm">
+          <li><a href="https://www.youtube.com/watch?v=fwkgHUpvYLk" target="_blank" rel="noopener" class="font-semibold text-chart hover:underline">Watch Merriwether on YouTube</a></li>
+          <li><a href="https://www.foragingtexas.com" target="_blank" rel="noopener" class="font-semibold text-chart hover:underline">Visit the original site</a></li>
+          <li class="pt-2 text-cream/60">Photography via Wikimedia Commons, credited on each plant page.</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
