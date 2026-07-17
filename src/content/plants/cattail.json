@@ -1,0 +1,53 @@
+{
+  "name": "Cattail",
+  "latin": "Typha latifolia",
+  "family": "Cattail",
+  "abundance": "common",
+  "type": "Aquatic",
+  "uses": [
+    "Cooked",
+    "Flour"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "facts": {
+    "what": "Spring shoots; early-summer pollen; rhizome starch",
+    "how": "Shoots raw or steamed; pollen as flour boost",
+    "when": "Shoots March to May, pollen May and June",
+    "where": "Ditches, tank edges, any standing fresh water",
+    "value": "Starch, some protein from pollen"
+  },
+  "caution": "Cattails filter their water, pollutants included, so harvest only from clean water you would trust. Before flower spikes appear, blue-flag iris shoots can fool a beginner: iris is flat-fanned and toxic, cattail is round-stemmed.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Grip a young shoot low and pull; the white base slides free like a leek. For pollen, bend a flowering head into a bag and tap: a minute of drumming yields golden tablespoons."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The shoot hearts taste of cucumber and leek, good raw or barely steamed. Pollen folds into pancake batter for color and a corn-silk sweetness."
+    }
+  ],
+  "similar": [
+    "canada-wild-onion",
+    "purslane"
+  ],
+  "photos": [
+    {
+      "src": "./photos/cattail.jpg",
+      "alt": "Cattail (Typha latifolia)",
+      "credit": "Dominicus Johannes Bergsma",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

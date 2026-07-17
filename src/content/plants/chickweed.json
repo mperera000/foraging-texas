@@ -1,0 +1,51 @@
+{
+  "name": "Chickweed",
+  "latin": "Stellaria media",
+  "family": "Pink",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "facts": {
+    "what": "Tender tops, leaves, and starry flowers",
+    "how": "Raw, by the bowl, or pesto",
+    "when": "Cool season, January to April",
+    "where": "Shaded beds, damp lawns, winter gardens",
+    "value": "Green freshness in deep winter"
+  },
+  "caution": "Confirm the single line of hairs running up one side of the stem and the absence of milky sap; scarlet pimpernel, the look-alike, has square-ish stems, orange flowers, and no hair line.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A sprawling mat of small oval leaves with white flowers so deeply split their five petals look like ten. Stretch a stem gently: the skin breaks but an elastic inner core holds."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Chickweed eats like sprouts, mild and juicy. Scissor-harvest the top few inches and it regrows for weeks."
+    }
+  ],
+  "similar": [
+    "henbit",
+    "wood-sorrel"
+  ],
+  "photos": [
+    {
+      "src": "./photos/chickweed.jpg",
+      "alt": "Chickweed (Stellaria media)",
+      "credit": "Robert Flogaus-Faust",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

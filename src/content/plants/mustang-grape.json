@@ -1,0 +1,50 @@
+{
+  "name": "Mustang Grape",
+  "latin": "Vitis mustangensis",
+  "family": "Grape",
+  "abundance": "common",
+  "type": "Vine",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "Central",
+    "East"
+  ],
+  "months": [
+    6,
+    7,
+    8
+  ],
+  "facts": {
+    "what": "Ripe purple grapes; young leaves",
+    "how": "Jelly, juice, country wine; raw only in small amounts",
+    "when": "Fruit June to August",
+    "where": "Fence lines, creek bottoms, woodland edges",
+    "value": "Sugars, vitamin C"
+  },
+  "caution": "Raw juice is harsh with acid and can irritate skin and mouth; wear gloves for big harvests. Confirm the felty white underside of the leaf, since peppervine, which sickens, shares the habit.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Look for low-hanging clusters on fence lines in high summer, and take only what the vine gives easily. A single healthy mustang vine can carry pounds of fruit, so there is no need to strip any one plant."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The acid that makes these grapes rough raw is exactly what makes them shine as jelly and wine. Cook, strain, and sweeten, and you get a deep purple preserve that tastes like a Texas summer."
+    }
+  ],
+  "similar": [
+    "dewberry",
+    "beautyberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/mustang-grape.jpg",
+      "alt": "Mustang Grape (Vitis mustangensis)",
+      "credit": "Ddal",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

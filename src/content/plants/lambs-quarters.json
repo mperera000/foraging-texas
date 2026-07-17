@@ -1,0 +1,54 @@
+{
+  "name": "Lamb's Quarters",
+  "latin": "Chenopodium album",
+  "family": "Amaranth",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Cooked",
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "facts": {
+    "what": "Young leaves and growing tips",
+    "how": "Cooked like spinach; young leaves raw in moderation",
+    "when": "April through August",
+    "where": "Gardens, field edges, disturbed rich soil",
+    "value": "Protein-rich green; vitamins A and C, calcium"
+  },
+  "caution": "Like spinach it carries oxalates, so cook mature leaves and vary your greens. Confirm the white dusty coating on new growth; nightshade seedlings share ground but lack it.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Goosefoot-shaped leaves with a white mealy dust on the newest growth that beads water like wax. Rub it: the dust is the fingerprint."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "This is the wild spinach that out-spinaches spinach: steamed, creamed, or folded into anything that welcomes a deep green leaf."
+    }
+  ],
+  "similar": [
+    "purslane",
+    "dandelion"
+  ],
+  "photos": [
+    {
+      "src": "./photos/lambs-quarters.jpg",
+      "alt": "Lamb's Quarters (Chenopodium album)",
+      "credit": "T. Voekler",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

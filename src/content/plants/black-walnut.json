@@ -1,0 +1,50 @@
+{
+  "name": "Black Walnut",
+  "latin": "Juglans nigra",
+  "family": "Walnut",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Nuts"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "Nuts inside green tennis-ball husks",
+    "how": "Raw or baked; strong, wine-dark flavor",
+    "when": "September through November",
+    "where": "Creek and river bottoms",
+    "value": "Fat, protein; assertive flavor"
+  },
+  "caution": "Husks stain hands, clothes, and driveways a permanent brown; glove up. The shells are famously hard, so think vise or hammer, not nutcracker.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Gather green balls off the ground early, before the husk blackens into dye. Stomp-roll the husks off, wash the nuts, and cure them in mesh for two weeks."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Half the people who meet black walnut love it forever; it is pecan's loud cousin, best where it can lead, in ice cream, fudge, and banana bread."
+    }
+  ],
+  "similar": [
+    "pecan",
+    "sassafras"
+  ],
+  "photos": [
+    {
+      "src": "./photos/black-walnut.jpg",
+      "alt": "Black Walnut (Juglans nigra)",
+      "credit": "Berthold Werner",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

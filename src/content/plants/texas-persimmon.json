@@ -1,0 +1,49 @@
+{
+  "name": "Texas Persimmon",
+  "latin": "Diospyros texana",
+  "family": "Ebony",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "Central",
+    "West"
+  ],
+  "months": [
+    8,
+    9
+  ],
+  "facts": {
+    "what": "Small black fruit, dead ripe only",
+    "how": "Raw, or pulped for puddings and quick breads",
+    "when": "August and September",
+    "where": "Rocky Hill Country slopes; smooth gray peeling bark",
+    "value": "Sugars, fiber"
+  },
+  "caution": "Underripe fruit is an astringent ambush that dries your whole mouth; wait until the fruit is black, soft, and practically falling. The big seeds want a food mill.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Shake a branch over a sheet and take only what falls. If it resists, it is not ready, and it will punish you for rushing."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Ripe pulp tastes of dates and molasses. Run fruit through a food mill to shed the seeds, then bake it into breads or freeze it flat."
+    }
+  ],
+  "similar": [
+    "hackberry",
+    "honey-mesquite"
+  ],
+  "photos": [
+    {
+      "src": "./photos/texas-persimmon.jpg",
+      "alt": "Texas Persimmon (Diospyros texana)",
+      "credit": "Wyatt915",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

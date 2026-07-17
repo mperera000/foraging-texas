@@ -1,0 +1,57 @@
+{
+  "name": "Agarita",
+  "latin": "Mahonia trifoliolata",
+  "family": "Barberry",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "Central",
+    "West"
+  ],
+  "months": [
+    4,
+    5
+  ],
+  "flowerMonths": [
+    2,
+    3
+  ],
+  "facts": {
+    "what": "Red berries; flowers",
+    "how": "Jelly, syrup, raw, wine",
+    "when": "Flowers February to March, fruit April to May",
+    "where": "Dry brushland, rocky slopes, Hill Country and west",
+    "value": "Vitamin C, sugars"
+  },
+  "caution": "Stiff spines on every leaf tip. Wear gloves, or better, use the sheet trick.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Nobody picks agarita berries one at a time. Spread a sheet under the bush, tap the branches with a stick, and let the ripe fruit fall. Winnow out the leaves and you can gather a jelly batch in twenty minutes."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The berries are tart and bright, closer to a currant than a blueberry. Classic uses are jelly and syrup; the strained juice also ferments into a pale country wine."
+    },
+    {
+      "title": "Identification notes",
+      "body": "Three-part leaves, each leaflet tipped with holly-like spines, blue-green reading gray at a distance. With red berries present there is no dangerous look-alike in Texas."
+    }
+  ],
+  "similar": [
+    "yaupon-holly",
+    "prickly-pear"
+  ],
+  "photos": [
+    {
+      "src": "./photos/agarita.jpg",
+      "alt": "Agarita (Mahonia trifoliolata)",
+      "credit": "Clarence A. Rechenthin @ USDA-NRCS PLANTS Database",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

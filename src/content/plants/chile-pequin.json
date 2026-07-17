@@ -1,0 +1,52 @@
+{
+  "name": "Chile Pequin",
+  "latin": "Capsicum annuum var. glabriusculum",
+  "family": "Nightshade",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Spice"
+  ],
+  "regions": [
+    "Central",
+    "East"
+  ],
+  "months": [
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Tiny oval chiles, green ripening red",
+    "how": "Fresh in salsas, dried and crushed, or vinegar-pickled",
+    "when": "August into winter",
+    "where": "Under trees and fence lines where birds perch",
+    "value": "Serious heat; vitamins A and C"
+  },
+  "caution": "It is genuinely hot, several times a jalapeño, and the oils linger on fingers. It is also the parent of a nightshade family with inedible members: confirm the tiny upright red-when-ripe fruit on a knee-high shrub.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Texas's native chile: a shin-to-knee-high shrub in dappled shade, dotted with upright pea-sized fruit. Birds plant it under every fence-line tree."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "One or two fruits wake up a whole pot of beans. Dry a jar in autumn and you have crushed red pepper with a smoky wild edge all year."
+    }
+  ],
+  "similar": [
+    "turks-cap",
+    "prickly-pear"
+  ],
+  "photos": [
+    {
+      "src": "./photos/chile-pequin.jpg",
+      "alt": "Chile Pequin (Capsicum annuum var. glabriusculum)",
+      "credit": "Photo by David J. Stang",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

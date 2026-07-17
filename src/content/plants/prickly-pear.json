@@ -1,0 +1,55 @@
+{
+  "name": "Prickly Pear",
+  "latin": "Opuntia engelmannii",
+  "family": "Cactus",
+  "abundance": "abundant",
+  "type": "Cactus",
+  "uses": [
+    "Fruit",
+    "Cooked"
+  ],
+  "regions": [
+    "West",
+    "Central"
+  ],
+  "months": [
+    7,
+    8,
+    9
+  ],
+  "flowerMonths": [
+    4,
+    5
+  ],
+  "facts": {
+    "what": "Red fruit (tunas); young pads (nopales) in spring",
+    "how": "Fruit raw, juiced, or as jelly; pads grilled or boiled",
+    "when": "Tunas July to September, pads in spring",
+    "where": "Dry ground statewide, thickest in the west",
+    "value": "Sugars, fiber, vitamin C"
+  },
+  "caution": "The hair-fine glochids are worse than the big spines. Tongs, thick gloves, and a flame to singe them off are not optional.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Twist tunas off with tongs into a bucket and never touch them bare-handed until they are singed or peeled. For nopales, take bright young pads in spring and slice off every eye."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Tunas peel into a magenta fruit that juices beautifully; strain the seeds. Nopales grill like a vegetable and pair naturally with eggs, onion, and chile."
+    }
+  ],
+  "similar": [
+    "chile-pequin",
+    "agarita"
+  ],
+  "photos": [
+    {
+      "src": "./photos/prickly-pear.jpg",
+      "alt": "Prickly Pear (Opuntia engelmannii)",
+      "credit": "Photo by David J. Stang",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

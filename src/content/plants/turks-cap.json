@@ -1,0 +1,55 @@
+{
+  "name": "Turk's Cap",
+  "latin": "Malvaviscus arboreus var. drummondii",
+  "family": "Mallow",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Fruit",
+    "Tea"
+  ],
+  "regions": [
+    "Central",
+    "East"
+  ],
+  "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "Red flowers, marble-sized red fruit, young leaves",
+    "how": "Flowers and fruit raw or as tea; fruit cooks into syrup",
+    "when": "May through November, one of the longest seasons going",
+    "where": "Shady understory, yards, creek banks",
+    "value": "Nectar sugars; gentle hibiscus-family tea"
+  },
+  "caution": "No meaningful look-alike when flowering: nothing else here makes that never-opening red turban of a bloom. Fruit is mild and a little mealy, better cooked than grazed.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A shade-loving mallow with soft maple-ish leaves and red flowers that stay furled like a wrapped turban, hummingbird-designed."
+    },
+    {
+      "title": "Uses",
+      "body": "Flowers steep into a pale hibiscus-style tea. The little red fruits taste faintly of apple and do their best work as syrup or jelly."
+    }
+  ],
+  "similar": [
+    "beautyberry",
+    "chile-pequin"
+  ],
+  "photos": [
+    {
+      "src": "./photos/turks-cap.jpg",
+      "alt": "Turk's Cap (Malvaviscus arboreus var. drummondii)",
+      "credit": "Dinesh Valke from Thane, India",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

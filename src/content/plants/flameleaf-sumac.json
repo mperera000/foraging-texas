@@ -1,0 +1,51 @@
+{
+  "name": "Flameleaf Sumac",
+  "latin": "Rhus lanceolata",
+  "family": "Cashew",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Tea",
+    "Spice"
+  ],
+  "regions": [
+    "Central",
+    "West"
+  ],
+  "months": [
+    8,
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Fuzzy red berry clusters",
+    "how": "Cold-steep for sumac-ade; dry and grind for the spice",
+    "when": "August through October",
+    "where": "Fence rows and rocky hillsides; scarlet fall foliage",
+    "value": "Vitamin C tang, malic acid"
+  },
+  "caution": "Cashew family: those with strong cashew or mango allergies should be careful. Poison sumac has WHITE berries and lives in swamps, not on Texas hillsides; red upright clusters are the safe signature.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Snip whole red cones on a dry day and taste first: rain washes the tang off, and it returns after a few dry days. Sour is what you want."
+    },
+    {
+      "title": "Sumac-ade",
+      "body": "Swish clusters in cold water until it turns pink lemonade, strain through cloth, sweeten. Heat turns it bitter, so keep it cold."
+    }
+  ],
+  "similar": [
+    "agarita",
+    "turks-cap"
+  ],
+  "photos": [
+    {
+      "src": "./photos/flameleaf-sumac.jpg",
+      "alt": "Flameleaf Sumac (Rhus lanceolata)",
+      "credit": "Mike Tilley",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

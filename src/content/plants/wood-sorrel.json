@@ -1,0 +1,53 @@
+{
+  "name": "Wood Sorrel",
+  "latin": "Oxalis stricta",
+  "family": "Wood sorrel",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "facts": {
+    "what": "Leaves, flowers, green seed pods",
+    "how": "Raw as a trail nibble or salad lemon-note",
+    "when": "Spring into summer, fading in high heat",
+    "where": "Lawns, beds, woodland edges, everywhere",
+    "value": "Vitamin C; bright oxalic tang"
+  },
+  "caution": "The lemon tang is oxalic acid: fine as a garnish and nibble, unwise as a whole salad bowl, and worth skipping if you have kidney stone history.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Three perfect hearts to a leaf, folding along their midline in strong sun, with small five-petal yellow flowers. Clover has ovals; sorrel has hearts."
+    },
+    {
+      "title": "On the trail",
+      "body": "This is the classic first forage: safe to recognize, bright to taste, growing in every yard. The little pickle-shaped pods pop pleasantly."
+    }
+  ],
+  "similar": [
+    "henbit",
+    "chickweed"
+  ],
+  "photos": [
+    {
+      "src": "./photos/wood-sorrel.jpg",
+      "alt": "Wood Sorrel (Oxalis stricta)",
+      "credit": "NY State IPM Program  at Cornell University from New York, U",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

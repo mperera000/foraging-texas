@@ -1,0 +1,53 @@
+{
+  "name": "Elderberry",
+  "latin": "Sambucus canadensis",
+  "family": "Moschatel",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    6,
+    7
+  ],
+  "flowerMonths": [
+    4,
+    5
+  ],
+  "facts": {
+    "what": "Ripe black berries, cooked; flower clusters",
+    "how": "Syrup, jelly, fritters from flowers; never raw in quantity",
+    "when": "Flowers late spring, fruit June and July",
+    "where": "Ditches and creek banks with wet feet",
+    "value": "Anthocyanins; folk cold syrup"
+  },
+  "caution": "Cook the berries: raw fruit, and all stems, leaves, and unripe berries, carry cyanide-producing compounds. Strip berries fully from stems. Learn the shrub confidently in flower before trusting yourself in fruit.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Snip whole umbels of fully black berries and freeze them; frozen berries rattle off their stems in seconds, which beats an hour of picking."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Simmered and strained, elderberries make the syrup half of Texas keeps in the fridge by November. The flowers, dipped in batter, fry into lacy fritters."
+    }
+  ],
+  "similar": [
+    "beautyberry",
+    "dewberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/elderberry.jpg",
+      "alt": "Elderberry (Sambucus canadensis)",
+      "credit": "Rison Thumboor from Thrissur, India",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

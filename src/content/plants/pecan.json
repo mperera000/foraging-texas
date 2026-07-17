@@ -1,0 +1,50 @@
+{
+  "name": "Pecan",
+  "latin": "Carya illinoinensis",
+  "family": "Walnut",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Nuts"
+  ],
+  "regions": [
+    "Central",
+    "East"
+  ],
+  "months": [
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Nuts after husks split",
+    "how": "Raw, toasted, pie",
+    "when": "October into December",
+    "where": "River bottoms statewide; the state tree",
+    "value": "Fat, protein, minerals"
+  },
+  "caution": "Street-tree and roadside nuts pick up whatever the ground holds; favor clean ground. Mind ownership: many Texas pecans stand on private land.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Wait for the husks to split and shake or gather from the ground within a few days of falling, before weevils and squirrels take the crop."
+    },
+    {
+      "title": "Storing",
+      "body": "In-shell pecans keep for months somewhere cool; shelled meats go rancid at room temperature, so freeze what you will not eat by spring."
+    }
+  ],
+  "similar": [
+    "black-walnut",
+    "hackberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/pecan.jpg",
+      "alt": "Pecan (Carya illinoinensis)",
+      "credit": "Roger Culos",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

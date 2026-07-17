@@ -1,0 +1,52 @@
+{
+  "name": "Sugar Hackberry",
+  "latin": "Celtis laevigata",
+  "family": "Hemp",
+  "abundance": "abundant",
+  "type": "Tree",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Pea-sized orange-red berries, eaten whole",
+    "how": "Crunch whole (thin sweet skin over a crunchy nut) or blend into bars",
+    "when": "September into winter, hanging on the twig",
+    "where": "Every fence line and vacant lot in Texas",
+    "value": "Sugar, fat, and protein in one package, a true trail food"
+  },
+  "caution": "The berry is mostly seed; eat it like a crunchy snack, not a mouthful of soft fruit, or blend and strain. Warty gray bark is the tree's fingerprint.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "The tree everyone has and nobody planted: gray bark studded with corky warts, sandpaper leaves, and winter twigs beaded with orange berries."
+    },
+    {
+      "title": "On the trail",
+      "body": "Hackberries are candy that crunches. Native Texans pounded them whole into cakes, sugar, fat, and protein in one wild bar."
+    }
+  ],
+  "similar": [
+    "texas-persimmon",
+    "pecan"
+  ],
+  "photos": [
+    {
+      "src": "./photos/hackberry.jpg",
+      "alt": "Sugar Hackberry (Celtis laevigata)",
+      "credit": "Sam Fraser-Smith from Brisbane, Australia",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

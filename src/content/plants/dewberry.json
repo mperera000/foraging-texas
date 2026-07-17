@@ -1,0 +1,53 @@
+{
+  "name": "Dewberry",
+  "latin": "Rubus trivialis",
+  "family": "Rose",
+  "abundance": "abundant",
+  "type": "Vine",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    4,
+    5,
+    6
+  ],
+  "flowerMonths": [
+    3
+  ],
+  "facts": {
+    "what": "Black berries; leaves for tea",
+    "how": "Raw by the handful, cobbler, jam",
+    "when": "April to early June",
+    "where": "Sunny ditches, fence rows, old fields",
+    "value": "Sugars, vitamin C, fiber"
+  },
+  "caution": "Low trailing canes are thorny, and so are the chiggers that share the patch. Tuck pant legs in and wash up after.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Dewberries run along the ground, not up canes like blackberries, and ripen weeks earlier. Pick dead-black fruit that pulls free without a tug; red ones will only teach you patience."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The first quart rarely makes it home. Those that do want a cobbler, or a jam loose enough to remember the fruit."
+    }
+  ],
+  "similar": [
+    "mustang-grape",
+    "beautyberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/dewberry.jpg",
+      "alt": "Dewberry (Rubus trivialis)",
+      "credit": "gailhampshire from Cradley, Malvern, U.K",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Chanterelle",
+  "latin": "Cantharellus texensis",
+  "family": "Chanterelle",
+  "abundance": "seasonal",
+  "type": "Mushroom",
+  "uses": [
+    "Cooked"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    6,
+    7,
+    8
+  ],
+  "facts": {
+    "what": "The whole fruiting body, cooked",
+    "how": "Sautéed; never raw",
+    "when": "Summer, one to two weeks after soaking rains",
+    "where": "Oak woods in East Texas, on soil, never on wood",
+    "value": "Flavor; some B vitamins"
+  },
+  "caution": "The jack-o'-lantern mushroom is the dangerous double: it grows in clusters ON wood and has true gills. Chanterelles grow from soil with blunt false ridges. Mushrooms demand expert confirmation; when in doubt, throw it out.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Hunt oak woods a week after summer rain. Cut or pinch at the base, brush off the leaf litter, and carry them in a basket so the woods get their spores back."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Dry-sauté first to drive off water, then add butter. The apricot smell survives cooking and makes these the East Texas prize."
+    }
+  ],
+  "similar": [
+    "sassafras",
+    "beautyberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/chanterelle.jpg",
+      "alt": "Chanterelle (Cantharellus texensis)",
+      "credit": "George Chernilevsky",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

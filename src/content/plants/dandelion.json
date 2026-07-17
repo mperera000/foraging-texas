@@ -1,0 +1,56 @@
+{
+  "name": "Dandelion",
+  "latin": "Taraxacum officinale",
+  "family": "Aster",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Cooked",
+    "Tea"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Leaves, flowers, roots: the whole plant",
+    "how": "Young leaves raw, older cooked; flowers for fritters; roots roasted for tea",
+    "when": "Cool months in Texas, November through April",
+    "where": "Lawns and disturbed ground everywhere",
+    "value": "Vitamins A and K, minerals; classic bitter green"
+  },
+  "caution": "The only real hazard is the lawn itself: harvest nowhere herbicides are sprayed. Texas false dandelions are look-alikes but harmless.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A basal rosette of backward-toothed leaves, one hollow milky stem per flower, never branched. Everything similar in a Texas lawn is at worst just less tasty."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Pick young leaves before flowering for salads; wilt older ones with bacon and vinegar the way generations of grandmothers settled the bitterness argument."
+    }
+  ],
+  "similar": [
+    "henbit",
+    "chickweed"
+  ],
+  "photos": [
+    {
+      "src": "./photos/dandelion.jpg",
+      "alt": "Dandelion (Taraxacum officinale)",
+      "credit": "Dominicus Johannes Bergsma",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

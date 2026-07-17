@@ -1,0 +1,53 @@
+{
+  "name": "Henbit",
+  "latin": "Lamium amplexicaule",
+  "family": "Mint",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "facts": {
+    "what": "Leaves, stems, purple flowers",
+    "how": "Raw in salads or wilted like spinach",
+    "when": "The cool months, January to April",
+    "where": "Every winter lawn and fallow bed in Texas",
+    "value": "Greens when little else grows"
+  },
+  "caution": "Unsprayed ground only; winter lawns are heavily treated. Henbit is not a true dead-nettle stinger and has no dangerous look-alike, but confirm the square stem and clasping scalloped leaves.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A mint-family winter annual: square stems, scalloped leaves clasping the stem in tiers, tiny orchid-like purple flowers. It carpets bare winter ground."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Mild, slightly grassy, one of the first fresh greens of the year. Toss young tops raw, or wilt handfuls into eggs and soups."
+    }
+  ],
+  "similar": [
+    "chickweed",
+    "wood-sorrel"
+  ],
+  "photos": [
+    {
+      "src": "./photos/henbit.jpg",
+      "alt": "Henbit (Lamium amplexicaule)",
+      "credit": "池田正樹 (talk)masaki ikeda",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

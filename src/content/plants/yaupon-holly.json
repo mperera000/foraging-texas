@@ -1,0 +1,59 @@
+{
+  "name": "Yaupon Holly",
+  "latin": "Ilex vomitoria",
+  "family": "Holly",
+  "abundance": "abundant",
+  "type": "Shrub",
+  "uses": [
+    "Tea"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Leaves and young twigs, dried or roasted, for tea",
+    "how": "Roast and steep like green or black tea",
+    "when": "Year-round",
+    "where": "Understory thickets across the eastern half of Texas",
+    "value": "Caffeine, the only native North American source"
+  },
+  "caution": "The leaves are the tea; the red berries are not food and will upset your stomach. Do not confuse with Chinese privet: yaupon leaves are small, leathery, and scalloped, privet leaves are smooth-edged.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Strip a colander of leaves from a healthy thicket, wash, and roast on a sheet pan until they go toasty brown. The plant regrows so fast that ranchers curse it."
+    },
+    {
+      "title": "In the cup",
+      "body": "Roasted yaupon steeps into something between green tea and yerba mate, no bitterness even oversteeped. It kept Native Texans and early settlers caffeinated for centuries."
+    }
+  ],
+  "similar": [
+    "sassafras",
+    "agarita"
+  ],
+  "photos": [
+    {
+      "src": "./photos/yaupon-holly.jpg",
+      "alt": "Yaupon Holly (Ilex vomitoria)",
+      "credit": "Nhlord",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

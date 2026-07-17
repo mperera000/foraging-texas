@@ -1,0 +1,59 @@
+{
+  "name": "Sassafras",
+  "latin": "Sassafras albidum",
+  "family": "Laurel",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Tea",
+    "Spice"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Young leaves (filé); root bark for traditional tea",
+    "how": "Dry and grind leaves; steep root bark",
+    "when": "Leaves spring to fall; roots year-round",
+    "where": "East Texas woods and fence rows",
+    "value": "Flavor and tradition more than nutrition"
+  },
+  "caution": "Root tea contains safrole, which the FDA flags in quantity; treat it as an occasional tradition, not a daily drink. The mitten-shaped leaves make ID easy.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "One tree, three leaf shapes on the same branch: oval, mitten, and three-lobed. Scratch a twig and it smells of root beer, because this is where root beer began."
+    },
+    {
+      "title": "Filé",
+      "body": "Dry young leaves, grind, and sift: that is filé, the gumbo thickener. A single small tree supplies a kitchen for a year."
+    }
+  ],
+  "similar": [
+    "yaupon-holly",
+    "black-walnut"
+  ],
+  "photos": [
+    {
+      "src": "./photos/sassafras.jpg",
+      "alt": "Sassafras (Sassafras albidum)",
+      "credit": "Chris Light",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

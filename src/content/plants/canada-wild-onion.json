@@ -1,0 +1,52 @@
+{
+  "name": "Canada Wild Onion",
+  "latin": "Allium canadense",
+  "family": "Amaryllis",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "facts": {
+    "what": "Bulbs, greens, and spring bulblet heads",
+    "how": "Anywhere an onion or chive belongs",
+    "when": "February through May",
+    "where": "Lawns, meadows, open woods",
+    "value": "Onion-family flavor and compounds"
+  },
+  "caution": "THE RULE HAS NO EXCEPTIONS: no onion smell, no eating. Crow poison mimics it leaf for leaf and bulb for bulb but has no odor, and it grows in the same lawns.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Grassy leaves from a small bulb, and the unmistakable test: crush a leaf and the whole plant must announce itself as onion. Silence means crow poison; leave it."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The greens are wild chives, the bulbs are shallots in miniature, and the little aerial bulblets pickle into perfect cocktail onions."
+    }
+  ],
+  "similar": [
+    "cattail",
+    "henbit"
+  ],
+  "photos": [
+    {
+      "src": "./photos/canada-wild-onion.jpg",
+      "alt": "Canada Wild Onion (Allium canadense)",
+      "credit": "Dominicus Johannes Bergsma",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

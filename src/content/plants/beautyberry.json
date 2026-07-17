@@ -1,0 +1,49 @@
+{
+  "name": "American Beautyberry",
+  "latin": "Callicarpa americana",
+  "family": "Mint",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    8,
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Clusters of shocking purple berries",
+    "how": "Jelly is the classic; raw only a taste at a time",
+    "when": "August through October",
+    "where": "Piney woods understory, stream banks",
+    "value": "Modest sugars; famous color"
+  },
+  "caution": "Raw berries are mealy and best in small amounts; the payoff is the jelly. The crushed leaves are a folk mosquito rub, not a food.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "The purple is so loud you can spot a bush from a moving car in September. Strip clusters into a bag; ten minutes fills a jelly batch."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Beautyberry jelly comes out rose-colored and delicate, closer to floral than fruity, and it is the East Texas answer to agarita."
+    }
+  ],
+  "similar": [
+    "dewberry",
+    "turks-cap"
+  ],
+  "photos": [
+    {
+      "src": "./photos/beautyberry.jpg",
+      "alt": "American Beautyberry (Callicarpa americana)",
+      "credit": "Alex Abair",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

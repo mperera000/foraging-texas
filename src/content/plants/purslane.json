@@ -1,0 +1,53 @@
+{
+  "name": "Purslane",
+  "latin": "Portulaca oleracea",
+  "family": "Purslane",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "facts": {
+    "what": "Succulent stems and paddle leaves",
+    "how": "Raw for crunch, or cooked into eggs and stews (verdolagas)",
+    "when": "The hot months, June to September",
+    "where": "Sidewalk cracks, gardens, bare summer dirt",
+    "value": "Omega-3s, unusually rich for a green"
+  },
+  "caution": "The look-alike is prostrate spurge: snap a stem, and milky white sap means spurge, drop it. Purslane bleeds clear.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Fat, smooth, reddish stems hugging the ground with rubbery paddle leaves. It thrives in July heat that kills lettuce at forty paces."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Lemony crunch raw; silky when cooked. Across the border it is verdolagas, simmered with pork and tomatillo, which is the best argument for it."
+    }
+  ],
+  "similar": [
+    "wood-sorrel",
+    "lambs-quarters"
+  ],
+  "photos": [
+    {
+      "src": "./photos/purslane.jpg",
+      "alt": "Purslane (Portulaca oleracea)",
+      "credit": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

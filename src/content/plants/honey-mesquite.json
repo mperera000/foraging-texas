@@ -1,0 +1,51 @@
+{
+  "name": "Honey Mesquite",
+  "latin": "Prosopis glandulosa",
+  "family": "Legume",
+  "abundance": "abundant",
+  "type": "Tree",
+  "uses": [
+    "Flour"
+  ],
+  "regions": [
+    "West",
+    "Central"
+  ],
+  "months": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "facts": {
+    "what": "Whole dry pods (not the seeds alone)",
+    "how": "Grind dry pods into sweet flour; simmer for syrup",
+    "when": "June through September",
+    "where": "Everywhere ranchers wish it wasn't",
+    "value": "Natural sugars, protein, fiber; gluten-free flour"
+  },
+  "caution": "Harvest pods straight off the tree, dry and unblemished; ground-collected pods mold fast, and moldy pods are unsafe. Taste one first, sweetness varies tree to tree.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Pick straw-colored pods that snap cleanly, from the branch rather than the dirt. Dry them brittle in a low oven or a hot truck dashboard, which is the traditional West Texas dehydrator."
+    },
+    {
+      "title": "Mesquite flour",
+      "body": "Blitz brittle pods, sift, repeat. The flour is sweet with a cocoa-coffee edge and swaps for a quarter of the flour in pancakes and cornbread."
+    }
+  ],
+  "similar": [
+    "texas-persimmon",
+    "prickly-pear"
+  ],
+  "photos": [
+    {
+      "src": "./photos/honey-mesquite.jpg",
+      "alt": "Honey Mesquite (Prosopis glandulosa)",
+      "credit": "Don A.W. Carlson",
+      "license": "CC BY 2.5",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

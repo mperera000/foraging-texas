@@ -1,0 +1,57 @@
+---
+// Phase 2 skeleton: proves data -> page. Phase 3 replaces this with the designed plant page.
+import { getCollection, type CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+import "../../styles/global.css";
+
+export async function getStaticPaths() {
+  const plants = await getCollection("plants");
+  return plants.map((plant) => ({ params: { slug: plant.id }, props: { plant } }));
+}
+
+interface Props {
+  plant: CollectionEntry<"plants">;
+}
+const { plant } = Astro.props;
+const d = plant.data;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>{d.name} · Foraging Texas</title>
+  </head>
+  <body>
+    <main class="mx-auto max-w-2xl px-6 py-12">
+      <p><a href="/plants" class="font-bold text-forest underline underline-offset-2">All plants</a></p>
+      <h1 class="font-display text-4xl mt-4">{d.name}</h1>
+      <p class="italic text-muted">{d.latin} · {d.family} family · {d.abundance}</p>
+
+      <Image src={d.photos[0].src} alt={d.photos[0].alt} width={720} class="my-6 rounded-2xl" />
+
+      <dl class="mb-6">
+        <div><dt class="font-bold inline">What:</dt> <dd class="inline">{d.facts.what}</dd></div>
+        <div><dt class="font-bold inline">How:</dt> <dd class="inline">{d.facts.how}</dd></div>
+        <div><dt class="font-bold inline">When:</dt> <dd class="inline">{d.facts.when}</dd></div>
+        <div><dt class="font-bold inline">Where:</dt> <dd class="inline">{d.facts.where}</dd></div>
+        <div><dt class="font-bold inline">Value:</dt> <dd class="inline">{d.facts.value}</dd></div>
+      </dl>
+
+      <p class="rounded-xl bg-amber px-4 py-3 text-amber-ink"><strong>Caution:</strong> {d.caution}</p>
+
+      {d.sections.map((s) => (
+        <section>
+          <h2 class="font-display text-2xl mt-8 mb-2">{s.title}</h2>
+          <p>{s.body}</p>
+        </section>
+      ))}
+
+      <p class="mt-10 text-sm text-muted">
+        Photo: {d.photos[0].credit} · {d.photos[0].license} · {d.photos[0].source}.
+        Never eat a wild plant on this site's word alone.
+      </p>
+    </main>
+  </body>
+</html>
