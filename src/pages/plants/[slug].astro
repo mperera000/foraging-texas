@@ -1,6 +1,6 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
-import { Image } from "astro:assets";
+import { Image, getImage } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import PlantCard from "../../components/PlantCard.astro";
 
@@ -28,9 +28,10 @@ const facts = [
   { key: "Value", value: d.facts.value },
 ];
 const photo = d.photos[0];
+const og = await getImage({ src: photo.src, width: 1200 });
 ---
 
-<Layout title={`${d.name} · Merriwether's Foraging Texas`} description={d.facts.what}>
+<Layout title={`${d.name} · Merriwether's Foraging Texas`} description={d.facts.what} ogImage={og.src}>
   <main class="mx-auto max-w-6xl px-6">
     <p class="pt-8 text-sm text-muted">
       <a href="/plants" class="font-bold text-forest underline underline-offset-[3px]">All plants</a>

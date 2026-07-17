@@ -5,8 +5,9 @@ import Mark from "../components/Mark.astro";
 interface Props {
   title: string;
   description?: string;
+  ogImage?: string;
 }
-const { title, description = "A field guide to the wild edible and medicinal plants of Texas, organized by what's in season right now." } = Astro.props;
+const { title, description = "A field guide to the wild edible and medicinal plants of Texas, organized by what's in season right now.", ogImage } = Astro.props;
 const nav = [
   { href: "/", label: "Today" },
   { href: "/plants", label: "All plants" },
@@ -20,12 +21,18 @@ const path = Astro.url.pathname;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />{/* not launching yet: PLAN.md §13a */}
     <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {ogImage && <meta property="og:image" content={ogImage} />}
     <title>{title}</title>
   </head>
   <body class="min-h-dvh">
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded-full focus:bg-chart focus:px-5 focus:py-2.5 focus:font-bold focus:text-chart-ink">Skip to content</a>
     <nav class="sticky top-0 z-30 border-b border-line bg-paper">
       <div class="mx-auto flex h-[70px] max-w-6xl items-center gap-5 px-6">
-        <a href="/" class="flex items-center gap-3 font-display text-lg tracking-tight text-ink no-underline">
+        <a href="/" aria-label="Merriwether's Foraging Texas, home" class="flex items-center gap-3 font-display text-lg tracking-tight text-ink no-underline">
           <Mark />
           <span class="max-sm:hidden">Merriwether's Foraging Texas</span>
         </a>
@@ -49,7 +56,9 @@ const path = Astro.url.pathname;
       </div>
     </nav>
 
-    <slot />
+    <div id="main">
+      <slot />
+    </div>
 
     <footer class="mt-24 bg-forest-deep text-cream/90">
       <div class="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-[1.4fr_1fr]">

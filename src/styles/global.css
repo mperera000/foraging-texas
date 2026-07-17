@@ -10,7 +10,7 @@
   --color-paper: #f5eedb;
   --color-paper-2: #ece3c8;
   --color-ink: #26331c;
-  --color-muted: #6b7355;
+  --color-muted: #59624a; /* darkened from #6b7355 for WCAG AA on paper/cream */
   --color-forest: #2b4526;
   --color-forest-deep: #1f3319;
   --color-cream: #f8f3e3;

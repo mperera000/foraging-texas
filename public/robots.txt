@@ -1,0 +1,4 @@
+# NOT LAUNCHING YET (PLAN.md §13a): keep everything out of indexes.
+# At go-live (Phase 6b): switch to allow + add sitemap.
+User-agent: *
+Disallow: /
