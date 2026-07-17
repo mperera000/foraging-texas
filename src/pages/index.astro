@@ -1,54 +1,156 @@
 ---
-import "../styles/global.css";
+import { getCollection, type CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+import Layout from "../layouts/Layout.astro";
+import PlantCard from "../components/PlantCard.astro";
+import hero from "../assets/hero.jpg";
 
-const swatches = [
-  { name: "paper", cls: "bg-paper border border-line" },
-  { name: "paper-2", cls: "bg-paper-2" },
-  { name: "cream", cls: "bg-cream border border-line" },
-  { name: "line", cls: "bg-line" },
-  { name: "ink", cls: "bg-ink" },
-  { name: "muted", cls: "bg-muted" },
-  { name: "forest", cls: "bg-forest" },
-  { name: "forest-deep", cls: "bg-forest-deep" },
-  { name: "chart", cls: "bg-chart" },
-  { name: "amber", cls: "bg-amber" },
-];
+const plants = await getCollection("plants");
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const MO = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+
+type Plant = CollectionEntry<"plants">;
+function monthData(m: number) {
+  const next = m === 12 ? 1 : m + 1;
+  const inSeason = plants.filter((p) => p.data.months.includes(m));
+  const peaking = inSeason.filter((p) => p.data.months.includes(next)).slice(0, 4);
+  const lastChance = inSeason.filter((p) => !p.data.months.includes(next)).slice(0, 3);
+  const coming = plants
+    .filter((p) => !p.data.months.includes(m) && p.data.months.includes(next))
+    .slice(0, Math.max(0, 4 - lastChance.length) || 1)
+    .slice(0, 1);
+  return { inSeason, peaking, lastChance, coming };
+}
+
+// Static build renders the build-time month; the enhancement script promotes
+// the visitor's real month on load. Without JS you still get a correct page.
+const buildMonth = new Date().getMonth() + 1;
+const months = Array.from({ length: 12 }, (_, i) => ({ m: i + 1, ...monthData(i + 1) }));
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex" />
-    <title>Foraging Texas · foundation check</title>
-  </head>
-  <body class="min-h-dvh">
-    <main class="mx-auto max-w-3xl px-6 py-16">
-      <p class="text-xs font-bold uppercase tracking-widest text-muted">Phase 1 · foundation</p>
-      <h1 class="font-display text-5xl mt-2 mb-4">Know what your ancestors knew.</h1>
-      <p class="max-w-[60ch] text-muted mb-10">
-        If this headline renders in Young Serif on cream paper, the tokens are wired.
-        This page gets replaced by the real Today page in Phase 5.
-      </p>
+<Layout title="Merriwether's Foraging Texas · what's in season right now">
+  <main>
+    <!-- hero -->
+    <section class="relative flex min-h-[82dvh] items-end overflow-hidden bg-forest-deep">
+      <Image
+        src={hero}
+        alt="Wooded Hill Country slopes in fresh spring leaf"
+        class="absolute inset-0 size-full object-cover object-[center_35%]"
+        widths={[800, 1400, 2000]}
+        sizes="100vw"
+        loading="eager"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-forest-deep/30 via-forest-deep/20 to-forest-deep/85" aria-hidden="true"></div>
+      <div class="relative z-10 mx-auto w-full max-w-6xl px-6 pt-20 pb-16 text-cream">
+        <h1 class="max-w-[16ch] font-display text-[clamp(38px,5.6vw,72px)] leading-[1.06] tracking-tight text-balance [text-shadow:0_2px_24px_rgba(24,33,12,.35)]">
+          Know what your
+          <span class="relative whitespace-nowrap">ancestors<svg class="absolute right-0 -bottom-[.14em] left-0 h-[.24em] w-full" viewBox="0 0 200 14" preserveAspectRatio="none" fill="none" stroke="var(--color-chart)" stroke-width="5" stroke-linecap="round"><path d="M4 9 C 30 3, 55 12, 82 7 S 140 3, 196 8"></path></svg></span>
+          knew.
+        </h1>
+        <p class="mt-4 mb-8 max-w-[46ch] text-[clamp(16px,1.6vw,19px)] text-cream/85">
+          Merriwether's field guide to the wild edible and medicinal plants of Texas,
+          organized by what's ripening right outside, right now.
+        </p>
+        <a href="/plants" class="inline-flex items-center gap-2.5 rounded-full bg-chart px-7 py-4 font-bold text-chart-ink no-underline transition-transform duration-150 hover:-translate-y-0.5 active:scale-[.98] motion-reduce:transition-none">
+          Browse all plants
+          <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"></path></svg>
+        </a>
+      </div>
+    </section>
 
-      <div class="grid grid-cols-5 gap-3 mb-10">
-        {swatches.map((s) => (
-          <div>
-            <div class={`h-14 rounded-xl ${s.cls}`}></div>
-            <p class="text-xs text-muted mt-1">{s.name}</p>
+    {months.map(({ m, inSeason, peaking, lastChance, coming }) => (
+      <section data-month={m} hidden={m !== buildMonth}>
+        {/* in-season ticker */}
+        <div class="overflow-hidden bg-amber py-3 font-bold text-amber-ink" aria-hidden="true">
+          <div class="ticker-track flex w-max whitespace-nowrap">
+            {[0, 1].map(() => (
+              <span class="flex items-center">
+                <span class="px-3.5 font-extrabold">In season now</span><span class="px-1 opacity-60">✳</span>
+                {inSeason.map((p) => (<span class="flex items-center"><span class="px-3.5">{p.data.name}</span><span class="px-1 opacity-60">✳</span></span>))}
+              </span>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
 
-      <div class="flex flex-wrap items-center gap-4">
-        <button class="rounded-full bg-chart px-7 py-3.5 font-bold text-chart-ink">Chartreuse pill</button>
-        <button class="rounded-full bg-forest px-7 py-3.5 font-bold text-cream">Forest pill</button>
-        <div class="rounded-2xl bg-amber px-6 py-3.5 font-medium text-amber-ink">Amber block</div>
-      </div>
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="flex flex-wrap items-baseline gap-4 pt-14">
+            <h2 class="font-display text-3xl tracking-tight text-ink max-sm:text-2xl">What's in season</h2>
+            <p class="text-[15px] text-muted">{MONTHS[m - 1]} in Texas, <b class="text-ink">{inSeason.length} plants in season</b></p>
+          </div>
 
-      <div class="mt-10 w-44 overflow-hidden bg-forest text-cream rounded-t-[200px] rounded-b-[20px] aspect-[4/4.6] grid place-items-end p-4">
-        <span class="text-sm">arched frame</span>
-      </div>
-    </main>
-  </body>
-</html>
+          <div class="month-rail flex gap-1.5 overflow-x-auto py-5" role="group" aria-label="Pick a month">
+            {MO.map((label, i) => (
+              <button
+                data-m={i + 1}
+                aria-pressed={i + 1 === m}
+                class:list={[
+                  "min-w-[62px] flex-1 rounded-full border-[1.5px] px-0 py-2.5 text-xs font-bold tracking-wider transition-colors",
+                  i + 1 === m ? "border-forest bg-forest text-cream" : "border-line bg-cream text-muted hover:border-forest hover:text-ink",
+                ]}
+              >{label}</button>
+            ))}
+          </div>
+
+          <h3 class="mt-7 mb-4 font-display text-xl text-ink">Peaking now</h3>
+          {peaking.length > 0 ? (
+            <div class="grid grid-cols-2 gap-6 lg:grid-cols-4">
+              {peaking.map((p) => (<PlantCard plant={p} note="In season" hot />))}
+            </div>
+          ) : (
+            <p class="rounded-2xl bg-paper-2 px-5 py-4 text-sm text-muted">A leaner stretch; see what's ending or coming below.</p>
+          )}
+
+          <h3 class="mt-10 mb-4 flex items-center gap-3 font-display text-xl text-ink">Last chance <span class="font-sans text-[13px] font-semibold text-muted">ending this month</span></h3>
+          <div class="grid grid-cols-2 gap-6 lg:grid-cols-4">
+            {lastChance.map((p) => (<PlantCard plant={p} note="Ends soon" />))}
+            {coming.map((p) => (<div class="opacity-55"><PlantCard plant={p} note="Next month" /></div>))}
+          </div>
+          {lastChance.length + coming.length === 0 && (
+            <p class="rounded-2xl bg-paper-2 px-5 py-4 text-sm text-muted">Everything in season now carries into next month.</p>
+          )}
+        </div>
+      </section>
+    ))}
+
+    <div class="mx-auto max-w-6xl px-6">
+      <section class="mt-20 grid items-center gap-8 rounded-[34px] bg-amber px-[8%] py-14 text-amber-ink md:grid-cols-2">
+        <h2 class="max-w-[12ch] font-display text-[clamp(28px,3.4vw,44px)] leading-tight tracking-tight">Forage like you plan to come back.</h2>
+        <div class="space-y-3 text-[15.5px] leading-relaxed">
+          <p><b>Never eat a wild plant on this site's word alone.</b> Confirm identity with several sources, learn the look-alikes, and when in doubt, leave it in the ground.</p>
+          <p>Take a third of what you find, at most. The plant has to live, the birds were here first, and next season's forager is counting on both of you.</p>
+        </div>
+      </section>
+      <p class="mt-8 text-[12.5px] text-muted">Hero photograph: Wing-Chi Poon, CC BY-SA 3.0, via Wikimedia Commons.</p>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    .ticker-track { animation: ticker 36s linear infinite; }
+    @keyframes ticker { to { transform: translateX(-50%); } }
+  }
+</style>
+
+<script>
+  // Enhancement: show the visitor's real month, make the rail clickable.
+  // Without JS, the build-month section renders and the rail is inert.
+  const sections = [...document.querySelectorAll<HTMLElement>("[data-month]")];
+
+  function show(m: number) {
+    for (const s of sections) s.hidden = Number(s.dataset.month) !== m;
+    document.querySelectorAll<HTMLButtonElement>(".month-rail button").forEach((b) => {
+      const on = Number(b.dataset.m) === m;
+      b.setAttribute("aria-pressed", String(on));
+      b.classList.toggle("border-forest", on); b.classList.toggle("bg-forest", on); b.classList.toggle("text-cream", on);
+      b.classList.toggle("border-line", !on); b.classList.toggle("bg-cream", !on); b.classList.toggle("text-muted", !on);
+    });
+  }
+
+  document.addEventListener("click", (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLButtonElement>(".month-rail [data-m]");
+    if (b) show(Number(b.dataset.m));
+  });
+
+  show(new Date().getMonth() + 1);
+</script>
