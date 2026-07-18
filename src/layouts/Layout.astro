@@ -9,7 +9,7 @@ interface Props {
 }
 const { title, description = "A field guide to the wild edible and medicinal plants of Texas, organized by what's in season right now.", ogImage } = Astro.props;
 const nav = [
-  { href: "/", label: "Today" },
+  { href: "/", label: "This Month" },
   { href: "/plants", label: "All plants" },
 ];
 const path = Astro.url.pathname;
@@ -32,9 +32,9 @@ const path = Astro.url.pathname;
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded-full focus:bg-chart focus:px-5 focus:py-2.5 focus:font-bold focus:text-chart-ink">Skip to content</a>
     <nav class="sticky top-0 z-30 border-b border-line bg-paper">
       <div class="mx-auto flex h-[70px] max-w-6xl items-center gap-5 px-6">
-        <a href="/" aria-label="Merriwether's Foraging Texas, home" class="flex items-center gap-3 font-display text-lg tracking-tight text-ink no-underline">
+        <a href="/" aria-label="Texas Foraging, home" class="flex items-center gap-3 font-display text-lg tracking-tight text-ink no-underline">
           <Mark />
-          <span class="max-sm:hidden">Merriwether's Foraging Texas</span>
+          <span class="max-sm:hidden">Texas Foraging</span>
         </a>
         <div class="ml-auto flex items-center gap-1">
           {nav.map((item) => {

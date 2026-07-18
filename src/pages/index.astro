@@ -58,15 +58,11 @@ const months = Array.from({ length: 12 }, (_, i) => ({ m: i + 1, ...monthData(i 
       </div>
     </section>
 
-    {/* decorative dandelion garland: Malithi's drawing, on repeat */}
-    <div class="overflow-hidden bg-amber py-1.5" aria-hidden="true">
-      <div class="ticker-track flex w-max items-center whitespace-nowrap">
-        {[0, 1].map(() => (
-          <span class="flex items-center">
-            {Array.from({ length: 28 }).map(() => (
-              <img src="/dandelion.svg" alt="" class="mx-4 size-7" />
-            ))}
-          </span>
+    {/* decorative dandelion garland: Malithi's drawing, on repeat (static) */}
+    <div class="flex items-center justify-center overflow-hidden bg-amber py-1.5" aria-hidden="true">
+      <div class="flex w-max items-center whitespace-nowrap">
+        {Array.from({ length: 40 }).map(() => (
+          <img src="/dandelion.svg" alt="" class="mx-4 size-7 flex-none" />
         ))}
       </div>
     </div>
@@ -125,13 +121,6 @@ const months = Array.from({ length: 12 }, (_, i) => ({ m: i + 1, ...monthData(i 
     </div>
   </main>
 </Layout>
-
-<style>
-  @media (prefers-reduced-motion: no-preference) {
-    .ticker-track { animation: ticker 36s linear infinite; }
-    @keyframes ticker { to { transform: translateX(-50%); } }
-  }
-</style>
 
 <script>
   // Enhancement: show the visitor's real month, make the rail clickable.
