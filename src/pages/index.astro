@@ -4,6 +4,7 @@ import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import PlantCard from "../components/PlantCard.astro";
 import hero from "../assets/hero.jpg";
+import { TEXAS_OUTLINE } from "../data/texas-outline";
 
 const plants = await getCollection("plants");
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
@@ -26,6 +27,19 @@ function monthData(m: number) {
 // the visitor's real month on load. Without JS you still get a correct page.
 const buildMonth = new Date().getMonth() + 1;
 const months = Array.from({ length: 12 }, (_, i) => ({ m: i + 1, ...monthData(i + 1) }));
+
+const regionCount = (r: string) =>
+  plants.filter((p) => p.data.regions.includes(r as never)).length;
+const REGIONS = [
+  // Real state outline (see src/data/texas-outline.ts, CC0); regions are bands
+  // clipped to it. Canvas is 1162 x 1134.
+  { name: "West", count: regionCount("West"), fill: "var(--color-chart)", ink: "var(--color-ink)",
+    d: "M0 0 L500 0 L430 1134 L0 1134 Z", label: [300, 640], fs: 74 },
+  { name: "Central", count: regionCount("Central"), fill: "#5f9b52", ink: "var(--color-cream)",
+    d: "M500 0 L800 0 L730 1134 L430 1134 Z", label: [615, 640], fs: 64 },
+  { name: "East", count: regionCount("East"), fill: "var(--color-forest)", ink: "var(--color-cream)",
+    d: "M800 0 L1162 0 L1162 1134 L730 1134 Z", label: [905, 560], fs: 70 },
+];
 ---
 
 <Layout title="Merriwether's Foraging Texas · what's in season right now">
@@ -108,6 +122,39 @@ const months = Array.from({ length: 12 }, (_, i) => ({ m: i + 1, ...monthData(i 
     ))}
 
     <div class="mx-auto max-w-6xl px-6">
+      <section class="mt-20 grid items-center gap-10 md:grid-cols-[5fr_6fr]">
+        <div>
+          <h2 class="font-display text-3xl tracking-tight text-ink max-sm:text-2xl">What grows where you are</h2>
+          <p class="mt-3 max-w-[44ch] text-muted">
+            Texas is three different pantries. Tap your part of the state to see only
+            the plants recorded there.
+          </p>
+          <ul class="mt-6 space-y-2 text-[15px]">
+            {REGIONS.map((r) => (
+              <li class="flex items-center gap-3">
+                <span class="inline-block size-3.5 rounded-full border border-ink/30" style={`background:${r.fill}`}></span>
+                <a href={`/plants?region=${r.name}`} class="font-semibold text-forest underline underline-offset-[3px]">{r.name} Texas</a>
+                <span class="text-muted">{r.count} plants</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <svg viewBox="0 0 1162 1134" class="mx-auto w-full max-w-sm" role="img" aria-label="Map of Texas split into West, Central, and East foraging regions">
+          <defs>
+            <clipPath id="texas-clip"><path d={TEXAS_OUTLINE}></path></clipPath>
+          </defs>
+          <g clip-path="url(#texas-clip)">
+            {REGIONS.map((r) => (
+              <a href={`/plants?region=${r.name}`} aria-label={`${r.name} Texas, ${r.count} plants`}>
+                <path d={r.d} fill={r.fill} class="transition-opacity duration-200 hover:opacity-85"></path>
+                <text x={r.label[0]} y={r.label[1]} fill={r.ink} font-size={r.fs} font-weight="700" text-anchor="middle" style="pointer-events:none">{r.name}</text>
+              </a>
+            ))}
+          </g>
+          <path d={TEXAS_OUTLINE} fill="none" stroke="var(--color-ink)" stroke-width="14" stroke-linejoin="round"></path>
+        </svg>
+      </section>
+
       <section class="mt-20 grid items-center gap-8 rounded-[34px] bg-amber px-[8%] py-14 text-amber-ink md:grid-cols-2">
         <h2 class="max-w-[12ch] font-display text-[clamp(28px,3.4vw,44px)] leading-tight tracking-tight">Forage like you plan to come back.</h2>
         <div class="space-y-3 text-[15.5px] leading-relaxed">

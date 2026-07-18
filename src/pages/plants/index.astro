@@ -72,6 +72,13 @@ const regions = ["East", "Central", "West"].filter((r) =>
   const month = new Date().getMonth() + 1;
   const state: { season: boolean; type?: string; use?: string; region?: string } = { season: false };
 
+  // Deep links: /plants?region=West&type=Shrub&use=Fruit&season=1 (e.g. from the homepage map)
+  const params = new URLSearchParams(location.search);
+  state.region = params.get("region") ?? undefined;
+  state.type = params.get("type") ?? undefined;
+  state.use = params.get("use") ?? undefined;
+  state.season = params.has("season");
+
   const filters = document.getElementById("filters")!;
   const cards = [...document.querySelectorAll<HTMLLIElement>("#grid li")];
   const count = document.getElementById("count")!;
