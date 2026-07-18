@@ -58,20 +58,21 @@ const months = Array.from({ length: 12 }, (_, i) => ({ m: i + 1, ...monthData(i 
       </div>
     </section>
 
+    {/* decorative dandelion garland: Malithi's drawing, on repeat */}
+    <div class="overflow-hidden bg-amber py-1.5" aria-hidden="true">
+      <div class="ticker-track flex w-max items-center whitespace-nowrap">
+        {[0, 1].map(() => (
+          <span class="flex items-center">
+            {Array.from({ length: 28 }).map(() => (
+              <img src="/dandelion.svg" alt="" class="mx-4 size-7" />
+            ))}
+          </span>
+        ))}
+      </div>
+    </div>
+
     {months.map(({ m, inSeason, peaking, lastChance, coming }) => (
       <section data-month={m} hidden={m !== buildMonth}>
-        {/* in-season ticker */}
-        <div class="overflow-hidden bg-amber py-3 font-bold text-amber-ink" aria-hidden="true">
-          <div class="ticker-track flex w-max whitespace-nowrap">
-            {[0, 1].map(() => (
-              <span class="flex items-center">
-                <span class="px-3.5 font-extrabold">In season now</span><span class="px-1 opacity-60">✳</span>
-                {inSeason.map((p) => (<span class="flex items-center"><span class="px-3.5">{p.data.name}</span><span class="px-1 opacity-60">✳</span></span>))}
-              </span>
-            ))}
-          </div>
-        </div>
-
         <div class="mx-auto max-w-6xl px-6">
           <div class="flex flex-wrap items-baseline gap-4 pt-14">
             <h2 class="font-display text-3xl tracking-tight text-ink max-sm:text-2xl">What's in season</h2>
