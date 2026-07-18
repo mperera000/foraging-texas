@@ -58,13 +58,11 @@ const months = Array.from({ length: 12 }, (_, i) => ({ m: i + 1, ...monthData(i 
       </div>
     </section>
 
-    {/* decorative dandelion garland: Malithi's drawing, on repeat (static) */}
-    <div class="flex items-center justify-center overflow-hidden bg-amber py-1.5" aria-hidden="true">
-      <div class="flex w-max items-center whitespace-nowrap">
-        {Array.from({ length: 40 }).map(() => (
-          <img src="/dandelion.svg" alt="" class="mx-4 size-7 flex-none" />
-        ))}
-      </div>
+    {/* dandelions straddling the hero/page boundary, edge to edge */}
+    <div class="relative z-10 -mt-[14px] flex justify-center gap-8 overflow-hidden sm:gap-14" aria-hidden="true">
+      {Array.from({ length: 48 }).map(() => (
+        <img src="/dandelion.svg" alt="" class="size-7 flex-none" />
+      ))}
     </div>
 
     {months.map(({ m, inSeason, peaking, lastChance, coming }) => (
