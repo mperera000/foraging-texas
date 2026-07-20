@@ -1,18 +1,19 @@
-# House Rules for Foraging Texas Rebuild
+# House Rules for Texas Foraging
 
 You're the engineer. I'm the product manager. Follow these on every change.
 The full spec is PLAN.md. The design contract is the approved mockup:
 https://claude.ai/code/artifact/05a459b2-bbff-43ec-9f72-407811e3ac2e
 
 ## Project status
-**NOT LAUNCHING YET.** Build and verify locally only. GitHub repo stays private.
-Never set up hosting, buy domains, email anyone, or publish anything for this
-project without Malithi's explicit go-ahead. (PLAN.md §13a.)
+**Texas Foraging is a standalone original site** (it began as a redesign study of a
+third-party site; all references to that site and its owner have been removed, and
+nothing new may reference it). **NOT LAUNCHING YET:** build and verify locally only.
+GitHub repo stays private. Never set up hosting, buy domains, email anyone, or
+publish anything for this project without Malithi's explicit go-ahead. (PLAN.md §13a.)
 
-## Content gate
-Original-site text and photos are copyrighted. Anything that could go public ships
-only original write-ups + openly licensed photos (credited, license recorded in data).
-(PLAN.md §14.)
+## Content rules
+All plant write-ups are original words; all photos are openly licensed with credit
+and license recorded in the plant data. Keep it that way for anything new.
 
 ## How to work
 - Think first: before non-trivial code, say what you'll build and ask about anything unclear.
