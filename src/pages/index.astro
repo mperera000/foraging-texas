@@ -57,8 +57,8 @@ const REGIONS = [
       <div class="absolute inset-0 bg-gradient-to-b from-forest-deep/30 via-forest-deep/20 to-forest-deep/85" aria-hidden="true"></div>
       <div class="relative z-10 mx-auto w-full max-w-6xl px-6 pt-20 pb-16 text-cream">
         <h1 class="max-w-[16ch] font-display text-[clamp(38px,5.6vw,72px)] leading-[1.06] tracking-tight text-balance [text-shadow:0_2px_24px_rgba(24,33,12,.35)]">
-          Thers's more to
-          <span class="relative whitespace-nowrap">nature<svg class="absolute right-0 -bottom-[.10em] left-0 h-[.24em] w-full" viewBox="0 0 200 14" preserveAspectRatio="none" fill="none" stroke="var(--color-chart)" stroke-width="5" stroke-linecap="round"><path d="M4 9 C 30 3, 55 12, 82 7 S 140 3, 196 8"></path></svg></span>
+          There's more to
+          <span class="relative whitespace-nowrap">nature<svg class="absolute right-0 -bottom-[.0001em] left-0 h-[.24em] w-full" viewBox="0 0 200 14" preserveAspectRatio="none" fill="none" stroke="var(--color-chart)" stroke-width="5" stroke-linecap="round"><path d="M4 9 C 30 3, 55 12, 82 7 S 140 3, 196 8"></path></svg></span>
           than you know.
         </h1>
         <p class="mt-4 mb-8 max-w-[46ch] text-[clamp(16px,1.6vw,19px)] text-cream/85">
@@ -104,7 +104,7 @@ const REGIONS = [
 
           <p class="mb-6 text-sm text-muted">A few highlights below; the link above opens the full list.</p>
 
-          <h3 class="mt-7 mb-4 font-display text-xl text-ink">Peaking now</h3>
+          <h3 class="mt-7 mb-4 font-display text-xl text-ink" data-peak-heading>Peaking in {MONTHS[m - 1]}</h3>
           {peaking.length > 0 ? (
             <div class="grid grid-cols-2 gap-6 lg:grid-cols-4">
               {peaking.map((p) => (<PlantCard plant={p} />))}
@@ -113,7 +113,7 @@ const REGIONS = [
             <p class="rounded-2xl bg-paper-2 px-5 py-4 text-sm text-muted">A leaner stretch; see what's ending or coming below.</p>
           )}
 
-          <h3 class="mt-10 mb-4 flex items-center gap-3 font-display text-xl text-ink">Last chance <span class="font-sans text-[13px] font-semibold text-muted">ending this month</span></h3>
+          <h3 class="mt-10 mb-4 flex items-center gap-3 font-display text-xl text-ink">Last chance <span class="font-sans text-[13px] font-semibold text-muted" data-last-label>ending in {MONTHS[m - 1]}</span></h3>
           <div class="grid grid-cols-2 gap-6 lg:grid-cols-4">
             {lastChance.map((p) => (<PlantCard plant={p} note="Ends soon" />))}
             {coming.map((p) => (<div class="opacity-55"><PlantCard plant={p} note="Next month" /></div>))}
@@ -175,8 +175,20 @@ const REGIONS = [
   // Without JS, the build-month section renders and the rail is inert.
   const sections = [...document.querySelectorAll<HTMLElement>("[data-month]")];
 
+  const realMonth = new Date().getMonth() + 1;
+
   function show(m: number) {
     for (const s of sections) s.hidden = Number(s.dataset.month) !== m;
+
+    // Only the visitor's actual month may say "now"; any other month is named.
+    const shown = sections.find((s) => Number(s.dataset.month) === m);
+    if (shown && m === realMonth) {
+      const peak = shown.querySelector("[data-peak-heading]");
+      const last = shown.querySelector("[data-last-label]");
+      if (peak) peak.textContent = "Peaking now";
+      if (last) last.textContent = "ending this month";
+    }
+
     document.querySelectorAll<HTMLButtonElement>(".month-rail button").forEach((b) => {
       const on = Number(b.dataset.m) === m;
       b.setAttribute("aria-pressed", String(on));
