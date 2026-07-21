@@ -81,6 +81,16 @@ const regions = ["East", "Central", "West"].filter((r) =>
   state.use = params.get("use") ?? undefined;
   state.season = params.has("season");
 
+  // The season pill filters by `month`, which is not always today. Say which
+  // month it means, so "In season now" never appears over another month's list.
+  const MONTH_NAMES = ["January","February","March","April","May","June",
+    "July","August","September","October","November","December"];
+  const seasonBtn = document.querySelector<HTMLButtonElement>('[data-f="season"]')!;
+  const isCurrentMonth = month === new Date().getMonth() + 1;
+  seasonBtn.textContent = isCurrentMonth
+    ? "In season now"
+    : `In season in ${MONTH_NAMES[month - 1]}`;
+
   const filters = document.getElementById("filters")!;
   const cards = [...document.querySelectorAll<HTMLLIElement>("#grid li")];
   const count = document.getElementById("count")!;
