@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://texas-foraging.pages.dev/sitemap-index.xml
+Sitemap: https://foraging-texas.vercel.app/sitemap-index.xml

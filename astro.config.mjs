@@ -6,8 +6,8 @@ import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
   // The live URL. Needed for the sitemap and for absolute og:image links so
-  // shared pages unfurl correctly. Update if the Cloudflare project name differs.
-  site: "https://texas-foraging.pages.dev",
+  // shared pages unfurl correctly. Update if the Vercel project name differs.
+  site: "https://foraging-texas.vercel.app",
 
   vite: {
     plugins: [tailwindcss()],

@@ -83,7 +83,7 @@ read harvesting prose → back to browse → filter by Type/Use/Region/In-season
 Visitor's browser
    │
    ▼
-Static site on CDN (Cloudflare Pages)     ← deployed from GitHub on every push
+Static site on CDN (Vercel)                  ← deployed from GitHub on every push
    ├─ Pages pre-built by Astro at deploy time
    ├─ Plant content: one JSON/MD file per plant  ← THE SWAPPABLE CONTENT LAYER
    ├─ Photos: optimized at build time (Astro assets)
@@ -102,7 +102,7 @@ ship.
 | Tailwind v4 | Styling | Matches design-taste-frontend workflow | Free |
 | Young Serif (self-hosted) + system sans | Type | Locked in mockup; OFL license | Free |
 | GitHub | Code home + ownership | Own your code, walk anytime | Free |
-| Cloudflare Pages | Hosting + CDN | Free tier is generous; fast | Free |
+| Vercel | Hosting + CDN | Already used on her other projects; auto-detects Astro | Free |
 | Domain (optional) | e.g. foragingtexas-concept.com | Portfolio polish | ~$12/yr |
 
 **Build rule:** frontend work uses the `/design-taste-frontend` skill. No third-party
@@ -185,7 +185,7 @@ Malithi is not ready to put this site live. Until she says otherwise:
 
 - **Everything is built and verified locally** (`npm run dev` / `npm run build && npm run preview`). The finished site runs entirely on her machine.
 - **GitHub repo stays PRIVATE.** Push for backup, never for publishing. (A private repo is invisible to the world; going public later is one setting.)
-- **No Cloudflare Pages / hosting setup, no domain purchase, no Merriwether email, no community posts.** Phases 6b and 7 below are parked.
+- **No hosting setup, no domain purchase, no Merriwether email, no community posts.** Phases 6b and 7 below are parked.
 - The nice part of the static-site choice: "going live later" is a 15-minute step (connect repo → deploy), and nothing built now has to change. There is no penalty for waiting.
 - **What "done" means for now:** the full site working locally + a folder of screenshots/screen-recording for showing people in person or privately.
 
@@ -264,7 +264,7 @@ screenshot/recording set for private showing.
 
 --- PARKED UNTIL MALITHI SAYS "GO LIVE" ---
 
-**Phase 6b · Deploy (parked)** — connect the private repo to Cloudflare Pages, optional
+**Phase 6b · Deploy (parked)** — connect the private repo to Vercel, optional
 domain. ~15 minutes; nothing above changes.
 > 🔖 CHECKPOINT: live URL loads; share a plant link, unfurl looks right.
 
