@@ -83,7 +83,10 @@ const REGIONS = [
         <div class="mx-auto max-w-6xl px-6">
           <div class="flex flex-wrap items-baseline gap-4 pt-14">
             <h2 class="font-display text-3xl tracking-tight text-ink max-sm:text-2xl">What's in season</h2>
-            <p class="text-[15px] text-muted">{MONTHS[m - 1]} in Texas, <b class="text-ink">{inSeason.length} plants in season</b></p>
+            <p class="text-[15px] text-muted">
+              {MONTHS[m - 1]} in Texas, <b class="text-ink">{inSeason.length} plants in season</b>.
+              <a href={`/plants?season&month=${m}`} class="font-semibold text-forest underline underline-offset-[3px]">See them all &rarr;</a>
+            </p>
           </div>
 
           <div class="month-rail flex gap-1.5 overflow-x-auto py-5" role="group" aria-label="Pick a month">
@@ -99,10 +102,12 @@ const REGIONS = [
             ))}
           </div>
 
+          <p class="mb-6 text-sm text-muted">A few highlights below; the link above opens the full list.</p>
+
           <h3 class="mt-7 mb-4 font-display text-xl text-ink">Peaking now</h3>
           {peaking.length > 0 ? (
             <div class="grid grid-cols-2 gap-6 lg:grid-cols-4">
-              {peaking.map((p) => (<PlantCard plant={p} note="In season" hot />))}
+              {peaking.map((p) => (<PlantCard plant={p} />))}
             </div>
           ) : (
             <p class="rounded-2xl bg-paper-2 px-5 py-4 text-sm text-muted">A leaner stretch; see what's ending or coming below.</p>

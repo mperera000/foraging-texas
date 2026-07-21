@@ -69,11 +69,13 @@ const regions = ["East", "Central", "West"].filter((r) =>
   // Progressive enhancement: without this script the full grid simply shows.
   const ACTIVE = ["border-forest", "bg-forest", "text-cream"];
   const IDLE = ["border-line", "bg-cream", "text-ink", "hover:border-forest"];
-  const month = new Date().getMonth() + 1;
+  // Deep links: /plants?region=West&type=Shrub&use=Fruit&season&month=12
+  // (e.g. from the homepage map or the "See them all" season link).
+  const params = new URLSearchParams(location.search);
+  const monthParam = Number(params.get("month"));
+  const month = monthParam >= 1 && monthParam <= 12 ? monthParam : new Date().getMonth() + 1;
   const state: { season: boolean; type?: string; use?: string; region?: string } = { season: false };
 
-  // Deep links: /plants?region=West&type=Shrub&use=Fruit&season=1 (e.g. from the homepage map)
-  const params = new URLSearchParams(location.search);
   state.region = params.get("region") ?? undefined;
   state.type = params.get("type") ?? undefined;
   state.use = params.get("use") ?? undefined;
