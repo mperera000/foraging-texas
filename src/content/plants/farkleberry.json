@@ -1,0 +1,48 @@
+{
+  "name": "Farkleberry",
+  "latin": "Vaccinium arboreum",
+  "family": "Heath",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Small black berries",
+    "how": "Cooked; raw only a nibble",
+    "when": "Fall",
+    "where": "Sandy East Texas woods",
+    "value": "A wild relative of the blueberry"
+  },
+  "caution": "Edible but dry and seedy raw; best cooked. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A tough evergreen blueberry cousin whose small black fruit stays hard and seedy. Not a trailside treat, but a real ingredient once cooked down."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Simmer with sugar and a splash of water to coax out what sweetness there is; the flavor is genuinely blueberry."
+    }
+  ],
+  "similar": [
+    "beautyberry",
+    "elderberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/farkleberry.jpg",
+      "alt": "Farkleberry (Vaccinium arboreum)",
+      "credit": "sonnia hill",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

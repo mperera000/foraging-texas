@@ -1,0 +1,52 @@
+{
+  "name": "Eastern Redbud",
+  "latin": "Cercis canadensis",
+  "family": "Legume",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    3,
+    4
+  ],
+  "flowerMonths": [
+    3
+  ],
+  "facts": {
+    "what": "Pink flowers; young green pods",
+    "how": "Flowers raw in salads; young pods cooked",
+    "when": "Early spring",
+    "where": "Woodland edges and yards",
+    "value": "Vitamin C; bright and pea-like"
+  },
+  "caution": "Eat the flowers and only the tender young pods; skip old pods and seeds. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "In March the bare branches erupt in magenta-pink flowers right off the wood. Unmistakable and cheerful."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The tangy-sweet flowers brighten a salad or top a cake; young pods can be sautéed like snow peas."
+    }
+  ],
+  "similar": [
+    "black-locust",
+    "mimosa"
+  ],
+  "photos": [
+    {
+      "src": "./photos/redbud.jpg",
+      "alt": "Eastern Redbud (Cercis canadensis)",
+      "credit": "Agnes Monkelbaan",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

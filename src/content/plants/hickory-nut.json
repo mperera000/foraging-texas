@@ -1,0 +1,49 @@
+{
+  "name": "Hickory Nut",
+  "latin": "Carya ovata",
+  "family": "Walnut",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Nuts"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "Nuts in a splitting husk",
+    "how": "Raw, toasted, or simmered for 'kanuchi'",
+    "when": "Fall",
+    "where": "East Texas woods and bottoms",
+    "value": "Fat, protein, minerals"
+  },
+  "caution": "Sweet hickories are excellent; a few relatives are bitter but not dangerous. The shells are hard, so mind your fingers. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Shagbark and its kin drop nuts in a four-part husk. Gather early before squirrels clear the ground."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Pecan's richer cousin. Traditionally the whole cracked nuts were boiled and strained into a nut milk that flavored breads and hominy."
+    }
+  ],
+  "similar": [
+    "pecan",
+    "black-walnut"
+  ],
+  "photos": [
+    {
+      "src": "./photos/hickory-nut.jpg",
+      "alt": "Hickory Nut (Carya ovata)",
+      "credit": "KATHERINE WAGNER-REISS",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

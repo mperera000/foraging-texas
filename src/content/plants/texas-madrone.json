@@ -1,0 +1,50 @@
+{
+  "name": "Texas Madrone",
+  "latin": "Arbutus xalapensis",
+  "family": "Heath",
+  "abundance": "uncommon",
+  "type": "Tree",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "West",
+    "Central"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "Red-orange berries",
+    "how": "Raw or cooked",
+    "when": "Fall",
+    "where": "Rocky Hill Country and West Texas slopes",
+    "value": "Sugars"
+  },
+  "caution": "Mealy and only mildly sweet; eaten in moderation. Prized more as a beautiful tree than a heavy food. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Unmistakable smooth peeling bark in cream, pink, and terracotta, with clusters of round red-orange fruit. A slow-growing Hill Country treasure worth protecting."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The grainy berries are pleasant fresh in small amounts and cook into a mild jelly."
+    }
+  ],
+  "similar": [
+    "texas-persimmon",
+    "agarita"
+  ],
+  "photos": [
+    {
+      "src": "./photos/texas-madrone.jpg",
+      "alt": "Texas Madrone (Arbutus xalapensis)",
+      "credit": "Internet Archive Book Images",
+      "license": "No restrictions",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Ashe Juniper",
+  "latin": "Juniperus ashei",
+  "family": "Cypress",
+  "abundance": "abundant",
+  "type": "Tree",
+  "uses": [
+    "Spice"
+  ],
+  "regions": [
+    "Central",
+    "West"
+  ],
+  "months": [
+    11,
+    12,
+    1
+  ],
+  "facts": {
+    "what": "Blue berries (cones)",
+    "how": "A few as a juniper spice",
+    "when": "Winter",
+    "where": "Hill Country slopes, the 'cedar' of Central Texas",
+    "value": "Aromatic seasoning"
+  },
+  "caution": "Seasoning only, and just a few berries; concentrated juniper is unsafe in quantity and in pregnancy. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "The shaggy-barked 'mountain cedar' that famously fills Central Texas air with pollen. Its blue berries are the useful part."
+    },
+    {
+      "title": "Uses",
+      "body": "Use a crushed berry or two to lend a resinous, gin-like note to hearty dishes."
+    }
+  ],
+  "similar": [
+    "eastern-redcedar",
+    "redberry-juniper"
+  ],
+  "photos": [
+    {
+      "src": "./photos/ashe-juniper.jpg",
+      "alt": "Ashe Juniper (Juniperus ashei)",
+      "credit": "Internet Archive Book Images",
+      "license": "No restrictions",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

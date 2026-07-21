@@ -1,0 +1,58 @@
+{
+  "name": "Sotol",
+  "latin": "Dasylirion texanum",
+  "family": "Asparagus",
+  "abundance": "common",
+  "type": "Cactus",
+  "uses": [
+    "Cooked"
+  ],
+  "regions": [
+    "West"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "The starchy heart, slow-roasted",
+    "how": "Pit-roasted, the traditional way",
+    "when": "Year-round",
+    "where": "West Texas hills and Big Bend country",
+    "value": "Starch, sugars"
+  },
+  "caution": "Only the cooked heart is food, and preparing it is a serious pit-roasting project, not a trail snack. The leaves are saw-toothed. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A rosette of slender saw-edged leaves sending up a tall flower stalk, also called desert spoon. A signature plant of the Trans-Pecos."
+    },
+    {
+      "title": "Uses",
+      "body": "Indigenous peoples pit-roasted the hearts for days into a sweet food, and the same plant is distilled into the spirit sotol."
+    }
+  ],
+  "similar": [
+    "agave",
+    "yucca"
+  ],
+  "photos": [
+    {
+      "src": "./photos/sotol.jpg",
+      "alt": "Sotol (Dasylirion texanum)",
+      "credit": "Rebou at German Wikipedia",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

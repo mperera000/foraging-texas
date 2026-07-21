@@ -1,0 +1,51 @@
+{
+  "name": "Wild Lettuce",
+  "latin": "Lactuca canadensis",
+  "family": "Aster",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Cooked",
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    3,
+    4,
+    5
+  ],
+  "facts": {
+    "what": "Young basal leaves",
+    "how": "Young raw, older cooked",
+    "when": "Spring",
+    "where": "Fields, roadsides, disturbed ground",
+    "value": "A bitter spring green"
+  },
+  "caution": "Eat the young leaves; older plants turn very bitter. A safe wild ancestor of garden lettuce. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A tall lettuce with milky sap and leaves that clasp the stem, often with a row of prickles down the midrib underneath."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Young rosette leaves eat like a sharp lettuce; cook the bitterness out of older ones as you would dandelion."
+    }
+  ],
+  "similar": [
+    "sow-thistle",
+    "dandelion"
+  ],
+  "photos": [
+    {
+      "src": "./photos/wild-lettuce.jpg",
+      "alt": "Wild Lettuce (Lactuca canadensis)",
+      "credit": "George F Mayfield from chicago area, USA",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

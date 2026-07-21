@@ -1,0 +1,57 @@
+{
+  "name": "Dayflower",
+  "latin": "Commelina erecta",
+  "family": "Spiderwort",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "flowerMonths": [
+    6,
+    7
+  ],
+  "facts": {
+    "what": "Young leaves, stems, and flowers",
+    "how": "Raw or cooked as a mild green",
+    "when": "Summer",
+    "where": "Fields, yards, disturbed ground",
+    "value": "A mild green; the flowers are a garnish"
+  },
+  "caution": "A safe relative of spiderwort; eat young tender growth. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Two vivid blue upper petals over a small white lower one give each flower a Mickey-Mouse look; each bloom lasts just a day."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The tender shoots and leaves are a pleasant mild green, and the blue flowers brighten a salad."
+    }
+  ],
+  "similar": [
+    "spiderwort",
+    "purslane"
+  ],
+  "photos": [
+    {
+      "src": "./photos/dayflower.jpg",
+      "alt": "Dayflower (Commelina erecta)",
+      "credit": "Purplesofi",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

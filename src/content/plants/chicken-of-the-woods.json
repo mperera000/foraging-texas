@@ -1,0 +1,52 @@
+{
+  "name": "Chicken of the Woods",
+  "latin": "Laetiporus sulphureus",
+  "family": "Polypore",
+  "abundance": "seasonal",
+  "type": "Mushroom",
+  "uses": [
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    5,
+    6,
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "The tender edges of the young bracket, always cooked",
+    "how": "Sautéed or simmered thoroughly",
+    "when": "Spring and fall on wood",
+    "where": "On oaks and other hardwoods, never on the ground",
+    "value": "Protein; a meaty texture"
+  },
+  "caution": "Always cook it, and eat a small amount your first time: some people react even to correctly-identified chicken of the woods, and specimens on conifers or certain oaks disagree with more people. Mushrooms demand expert confirmation. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Overlapping shelves of vivid sulphur-yellow and orange growing straight from a tree trunk or log. No gills, a pore surface underneath."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The young tender edges really do echo chicken. Take only the soft growing margin, cook it fully, and try a little the first time."
+    }
+  ],
+  "similar": [
+    "chanterelle",
+    "puffball"
+  ],
+  "photos": [
+    {
+      "src": "./photos/chicken-of-the-woods.jpg",
+      "alt": "Chicken of the Woods (Laetiporus sulphureus)",
+      "credit": "Andreas Eichler",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

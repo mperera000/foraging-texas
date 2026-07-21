@@ -1,0 +1,51 @@
+{
+  "name": "Chufa",
+  "latin": "Cyperus esculentus",
+  "family": "Sedge",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Nuts"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "Small sweet underground tubers",
+    "how": "Raw, roasted, or ground for a nut-milk",
+    "when": "Fall",
+    "where": "Damp fields, ditches, sandy ground",
+    "value": "Starch, sugars, fat"
+  },
+  "caution": "Also called yellow nutsedge, a persistent 'weed' whose tubers are the food. Rinse the soil off well; they are safe and sweet. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A grass-like sedge with a triangular stem; the prize is the cluster of pea-sized tubers on the roots, sweet and almond-like."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Eat them raw once washed, roast them, or soak and blend them into horchata-style tiger-nut milk."
+    }
+  ],
+  "similar": [
+    "arrowhead",
+    "sunchoke"
+  ],
+  "photos": [
+    {
+      "src": "./photos/chufa.jpg",
+      "alt": "Chufa (Cyperus esculentus)",
+      "credit": "Marco Schmidt [1]",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

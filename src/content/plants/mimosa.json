@@ -1,0 +1,54 @@
+{
+  "name": "Mimosa",
+  "latin": "Albizia julibrissin",
+  "family": "Legume",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Raw",
+    "Tea"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    5,
+    6
+  ],
+  "flowerMonths": [
+    5,
+    6
+  ],
+  "facts": {
+    "what": "Pink powder-puff flowers",
+    "how": "Flowers raw as garnish or steeped as tea",
+    "when": "Early summer",
+    "where": "Yards, roadsides, disturbed ground",
+    "value": "Delicate and floral"
+  },
+  "caution": "Use the flowers; skip the pods and seeds. An introduced tree, so gather away from sprayed areas. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Feathery leaves and silky pink 'powder-puff' flowers make this introduced tree easy to know."
+    },
+    {
+      "title": "Uses",
+      "body": "The sweet flowers garnish salads and desserts, and both flowers and bark have a long history in traditional calming teas."
+    }
+  ],
+  "similar": [
+    "redbud",
+    "black-locust"
+  ],
+  "photos": [
+    {
+      "src": "./photos/mimosa.jpg",
+      "alt": "Mimosa (Albizia julibrissin)",
+      "credit": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

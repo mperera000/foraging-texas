@@ -1,0 +1,49 @@
+{
+  "name": "Muscadine Grape",
+  "latin": "Vitis rotundifolia",
+  "family": "Grape",
+  "abundance": "common",
+  "type": "Vine",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    8,
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Large thick-skinned grapes",
+    "how": "Raw, juice, jelly, wine",
+    "when": "Late summer into fall",
+    "where": "East Texas woods, climbing high into trees",
+    "value": "Sugars, antioxidants"
+  },
+  "caution": "No toxic look-alikes when the fruit is present, but confirm the plant before eating any wild grape relative. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Muscadines hang high; the ripe ones drop, so check the ground under a loaded vine in September. Pop the sweet pulp from the tough skin with your teeth."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The famous Southern grape: heavy, musky, and sweet. Cook the skins with the pulp for jelly the color of garnet."
+    }
+  ],
+  "similar": [
+    "mustang-grape",
+    "maypop"
+  ],
+  "photos": [
+    {
+      "src": "./photos/muscadine.jpg",
+      "alt": "Muscadine Grape (Vitis rotundifolia)",
+      "credit": "Bob Peterson from North Palm Beach, Florida, Planet Earth!",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

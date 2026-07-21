@@ -1,0 +1,50 @@
+{
+  "name": "Arrowhead",
+  "latin": "Sagittaria latifolia",
+  "family": "Water plantain",
+  "abundance": "uncommon",
+  "type": "Aquatic",
+  "uses": [
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Starchy tubers ('duck potato')",
+    "how": "Boiled or roasted like a potato",
+    "when": "Fall into winter",
+    "where": "Marsh edges, pond margins, slow water",
+    "value": "Starch"
+  },
+  "caution": "Cook the tubers; they are unpleasant raw. Harvest only from clean water, and confirm the arrowhead-shaped leaves. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Bold arrowhead-shaped leaves standing at the water's edge with three-petaled white flowers. The tubers sit in the mud below, hence 'duck potato.'"
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Dislodge the tubers with your feet and let them float up. Cooked, they eat like a nutty potato and were a major Indigenous starch."
+    }
+  ],
+  "similar": [
+    "american-lotus",
+    "cattail"
+  ],
+  "photos": [
+    {
+      "src": "./photos/arrowhead.jpg",
+      "alt": "Arrowhead (Sagittaria latifolia)",
+      "credit": "Wikimedia Commons contributor",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

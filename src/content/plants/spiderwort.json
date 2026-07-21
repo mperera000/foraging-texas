@@ -1,0 +1,56 @@
+{
+  "name": "Spiderwort",
+  "latin": "Tradescantia ohiensis",
+  "family": "Spiderwort",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "flowerMonths": [
+    4,
+    5
+  ],
+  "facts": {
+    "what": "Leaves, stems, and flowers",
+    "how": "Leaves and stems raw or cooked; flowers as garnish",
+    "when": "Spring",
+    "where": "Prairies, roadsides, woodland edges",
+    "value": "A mild mucilaginous green"
+  },
+  "caution": "A safe, well-known edible; the blue flowers and grass-like leaves are distinctive. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Grassy arching leaves and three-petaled blue-violet flowers that each last a single morning. Break a leaf and it draws a fine mucilage thread."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Young leaves and stems eat like a slightly slick green vegetable, raw or cooked; the flowers pretty up a plate."
+    }
+  ],
+  "similar": [
+    "dayflower",
+    "violet"
+  ],
+  "photos": [
+    {
+      "src": "./photos/spiderwort.jpg",
+      "alt": "Spiderwort (Tradescantia ohiensis)",
+      "credit": "“Jon Zander (Digon3)\"",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

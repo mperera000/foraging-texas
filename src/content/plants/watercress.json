@@ -1,0 +1,54 @@
+{
+  "name": "Watercress",
+  "latin": "Nasturtium officinale",
+  "family": "Mustard",
+  "abundance": "uncommon",
+  "type": "Aquatic",
+  "uses": [
+    "Raw"
+  ],
+  "regions": [
+    "Central",
+    "East"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Leaves and stems",
+    "how": "Raw as the classic peppery salad green",
+    "when": "Cool months",
+    "where": "Clean, cold, flowing spring water",
+    "value": "Vitamins A, C, K; iron"
+  },
+  "caution": "Harvest ONLY from clean, flowing water you know is unpolluted; cress from water near livestock or runoff can carry parasites. When in doubt, cook it. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Rounded compound leaves floating and trailing in cold spring runs, with a sharp peppery bite. Grows right in the water."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The original salad cress, brilliant raw. Because it grows in water, source is everything: only clean flowing springs."
+    }
+  ],
+  "similar": [
+    "bittercress",
+    "peppergrass"
+  ],
+  "photos": [
+    {
+      "src": "./photos/watercress.jpg",
+      "alt": "Watercress (Nasturtium officinale)",
+      "credit": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

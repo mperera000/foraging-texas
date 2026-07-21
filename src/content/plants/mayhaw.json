@@ -1,0 +1,52 @@
+{
+  "name": "Mayhaw",
+  "latin": "Crataegus opaca",
+  "family": "Rose",
+  "abundance": "uncommon",
+  "type": "Tree",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    4,
+    5
+  ],
+  "flowerMonths": [
+    2,
+    3
+  ],
+  "facts": {
+    "what": "Small red haws",
+    "how": "The classic jelly; juice",
+    "when": "May, as the name says",
+    "where": "Wet bottomlands and swamp edges of East Texas",
+    "value": "Sugars, pectin, vitamin C"
+  },
+  "caution": "Eat the flesh; the small seeds are not chewed. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Mayhaws drop into the water and shallows below the tree; traditional gatherers float them out with nets. A wet-footed harvest with a devoted following."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Mayhaw jelly is a genuine Southern delicacy, tart and bright pink, and the whole reason anyone learns this tree."
+    }
+  ],
+  "similar": [
+    "southern-crabapple",
+    "chickasaw-plum"
+  ],
+  "photos": [
+    {
+      "src": "./photos/mayhaw.jpg",
+      "alt": "Mayhaw (Crataegus opaca)",
+      "credit": "USDA-NRCS PLANTS Database / USDA NRCS. Wetland flora: Field ",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

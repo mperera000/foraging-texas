@@ -1,0 +1,50 @@
+{
+  "name": "Brasil",
+  "latin": "Condalia hookeri",
+  "family": "Buckthorn",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "West"
+  ],
+  "months": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "facts": {
+    "what": "Small black fruit",
+    "how": "Raw, jelly",
+    "when": "Summer into fall",
+    "where": "South Texas brush country",
+    "value": "Sugars"
+  },
+  "caution": "Edible when fully black and soft; the thorns are serious. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A dense thorny brush-country shrub, also called bluewood, whose tiny black fruit is sweet and a little tart."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Gathered in quantity it makes a dark jelly; on the trail it is a welcome sweet in dry country."
+    }
+  ],
+  "similar": [
+    "lotebush",
+    "anacua"
+  ],
+  "photos": [
+    {
+      "src": "./photos/brasil-bluewood.jpg",
+      "alt": "Brasil (Condalia hookeri)",
+      "credit": "sonnia hill",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Cholla Buds",
+  "latin": "Cylindropuntia imbricata",
+  "family": "Cactus",
+  "abundance": "common",
+  "type": "Cactus",
+  "uses": [
+    "Cooked"
+  ],
+  "regions": [
+    "West"
+  ],
+  "months": [
+    4,
+    5
+  ],
+  "facts": {
+    "what": "Unopened flower buds",
+    "how": "De-spined and cooked",
+    "when": "Spring",
+    "where": "West Texas grassland and desert",
+    "value": "Calcium, fiber"
+  },
+  "caution": "De-spine the buds thoroughly (roll and singe) before cooking; never eat them raw or spined. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "The cane cholla's spiny joints carry fat flower buds in spring. It is the buds, not the fruit, that are the traditional food."
+    },
+    {
+      "title": "Uses",
+      "body": "Roll the buds to knock off spines, then boil or roast. A Southwestern staple, tangy and rich in calcium."
+    }
+  ],
+  "similar": [
+    "tasajillo",
+    "prickly-pear"
+  ],
+  "photos": [
+    {
+      "src": "./photos/cholla-buds.jpg",
+      "alt": "Cholla Buds (Cylindropuntia imbricata)",
+      "credit": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

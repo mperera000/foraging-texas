@@ -1,0 +1,51 @@
+{
+  "name": "Ground Cherry",
+  "latin": "Physalis longifolia",
+  "family": "Nightshade",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    7,
+    8,
+    9
+  ],
+  "facts": {
+    "what": "Small fruit inside a papery husk",
+    "how": "Raw when ripe, or into jam and sauce",
+    "when": "Summer into fall",
+    "where": "Fields, gardens, disturbed ground",
+    "value": "Vitamin C"
+  },
+  "caution": "Eat ONLY fruit that is ripe and golden inside a dry, tan husk. The green unripe fruit, leaves, and stems are toxic (nightshade family). Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A wild tomatillo: each fruit hangs inside a Chinese-lantern husk. Ripe fruit falls to the ground and yellows; that is your only safe signal."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Ripe ground cherries taste of sweet tomato and pineapple, wonderful raw or cooked into a jam."
+    }
+  ],
+  "similar": [
+    "wolfberry",
+    "chile-pequin"
+  ],
+  "photos": [
+    {
+      "src": "./photos/ground-cherry.jpg",
+      "alt": "Ground Cherry (Physalis longifolia)",
+      "credit": "NY State IPM Program  at Cornell University from New York, U",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

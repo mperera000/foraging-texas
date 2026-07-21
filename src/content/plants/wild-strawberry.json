@@ -1,0 +1,48 @@
+{
+  "name": "Wild Strawberry",
+  "latin": "Fragaria virginiana",
+  "family": "Rose",
+  "abundance": "uncommon",
+  "type": "Ground",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    4,
+    5
+  ],
+  "facts": {
+    "what": "Tiny red strawberries",
+    "how": "Raw",
+    "when": "Spring",
+    "where": "Woodland edges and meadows of far East Texas",
+    "value": "Vitamin C, sugars"
+  },
+  "caution": "True wild strawberry has white flowers and red fruit; the harmless 'mock strawberry' has yellow flowers and a bland fruit. Neither is dangerous, but know the difference. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A miniature of the garden berry, low to the ground with white five-petal flowers. The fruit is a fraction of the size and many times the flavor."
+    },
+    {
+      "title": "On the trail",
+      "body": "Too small and scattered to gather in bulk, but the most intense strawberry you will ever taste, eaten on the spot."
+    }
+  ],
+  "similar": [
+    "dewberry",
+    "blackberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/wild-strawberry.jpg",
+      "alt": "Wild Strawberry (Fragaria virginiana)",
+      "credit": "Sebaz",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

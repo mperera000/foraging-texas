@@ -1,0 +1,51 @@
+{
+  "name": "Curly Dock",
+  "latin": "Rumex crispus",
+  "family": "Buckwheat",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    2,
+    3,
+    4
+  ],
+  "facts": {
+    "what": "Young leaves; seeds for flour",
+    "how": "Leaves cooked like spinach; seeds ground",
+    "when": "Cool season for leaves",
+    "where": "Fields, ditches, disturbed ground",
+    "value": "Vitamins A and C; iron"
+  },
+  "caution": "Like spinach it is high in oxalates, so cook the leaves and eat in moderation, not by the bowlful. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A rosette of long wavy-edged leaves that sends up a stalk of rusty-brown seeds standing through winter, a roadside landmark."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Young leaves cook down tart and lemony; the abundant seeds can be rubbed free and ground into a buckwheat-like flour."
+    }
+  ],
+  "similar": [
+    "sheep-sorrel",
+    "lambs-quarters"
+  ],
+  "photos": [
+    {
+      "src": "./photos/curly-dock.jpg",
+      "alt": "Curly Dock (Rumex crispus)",
+      "credit": "Wikimedia Commons contributor",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

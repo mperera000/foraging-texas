@@ -1,0 +1,50 @@
+{
+  "name": "Eastern Redcedar",
+  "latin": "Juniperus virginiana",
+  "family": "Cypress",
+  "abundance": "abundant",
+  "type": "Tree",
+  "uses": [
+    "Spice"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Blue 'berries' (cones)",
+    "how": "A few dried and crushed as a juniper spice",
+    "when": "Fall and winter",
+    "where": "Old fields and fence rows across the eastern half",
+    "value": "Aromatic; used sparingly as seasoning"
+  },
+  "caution": "Use only a few berries as a SEASONING, never as a food or in medicinal quantity; concentrated juniper is hard on the kidneys and unsafe in pregnancy. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A dense evergreen with scaly foliage and waxy blue berries. Crush one: it smells of gin, because juniper is what makes gin."
+    },
+    {
+      "title": "Uses",
+      "body": "A pinch of crushed dried berries seasons game and stews. This is a spice, not a snack."
+    }
+  ],
+  "similar": [
+    "ashe-juniper",
+    "redberry-juniper"
+  ],
+  "photos": [
+    {
+      "src": "./photos/eastern-redcedar.jpg",
+      "alt": "Eastern Redcedar (Juniperus virginiana)",
+      "credit": "USDA-NRCS PLANTS Database / Herman, D.E. et al. 1996. North ",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

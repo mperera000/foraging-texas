@@ -1,0 +1,51 @@
+{
+  "name": "Greenbrier",
+  "latin": "Smilax bona-nox",
+  "family": "Greenbrier",
+  "abundance": "abundant",
+  "type": "Vine",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    3,
+    4,
+    5
+  ],
+  "facts": {
+    "what": "Tender growing shoot tips and tendrils",
+    "how": "Raw like a bean, or cooked as an asparagus",
+    "when": "Spring flush",
+    "where": "Woods, thickets, fence rows, often a thorny tangle",
+    "value": "A crisp spring vegetable"
+  },
+  "caution": "Only the soft new shoot tips are food; the mature thorny vine is not. A safe, well-known trailside vegetable. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A thorny climbing vine that most people meet by snagging a shirt on it. Follow it to the soft, often reddish new growth at the tips."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Snap the tender tips off like green beans; they are crisp and mild raw and cook up like asparagus."
+    }
+  ],
+  "similar": [
+    "kudzu",
+    "muscadine"
+  ],
+  "photos": [
+    {
+      "src": "./photos/greenbrier.jpg",
+      "alt": "Greenbrier (Smilax bona-nox)",
+      "credit": "Robert H. Mohlenbrock. USDA SCS. 1991. Southern wetland flor",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

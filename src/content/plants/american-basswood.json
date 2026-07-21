@@ -1,0 +1,53 @@
+{
+  "name": "American Basswood",
+  "latin": "Tilia americana",
+  "family": "Mallow",
+  "abundance": "uncommon",
+  "type": "Tree",
+  "uses": [
+    "Tea",
+    "Raw"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    5,
+    6
+  ],
+  "flowerMonths": [
+    5,
+    6
+  ],
+  "facts": {
+    "what": "Flowers for tea; tender young leaves",
+    "how": "Flowers steeped; young leaves raw in salad",
+    "when": "Late spring",
+    "where": "Rich East Texas woods",
+    "value": "Mild and sweet; a calming tea"
+  },
+  "caution": "Use fresh flowers for tea, not old browning ones. Young leaves are a mild salad green. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Big heart-shaped leaves and fragrant pale flowers that hang from a strap-like bract. Also called linden."
+    },
+    {
+      "title": "Uses",
+      "body": "Linden flower tea is a classic soothing brew, honey-sweet and floral; the tender spring leaves make a pleasant salad."
+    }
+  ],
+  "similar": [
+    "redbud",
+    "violet"
+  ],
+  "photos": [
+    {
+      "src": "./photos/american-basswood.jpg",
+      "alt": "American Basswood (Tilia americana)",
+      "credit": "Fritzflohrreynolds",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

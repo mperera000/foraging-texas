@@ -1,0 +1,50 @@
+{
+  "name": "Hairy Bittercress",
+  "latin": "Cardamine hirsuta",
+  "family": "Mustard",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    1,
+    2,
+    3
+  ],
+  "facts": {
+    "what": "Whole young rosette",
+    "how": "Raw as a cress",
+    "when": "Cool season",
+    "where": "Gardens, pots, moist lots",
+    "value": "Vitamin C; a peppery cress"
+  },
+  "caution": "A safe, mild mustard; harvest from unsprayed ground. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A small rosette of round-lobed leaflets that fires its ripe seed pods at a touch. One of the first fresh things in a winter garden."
+    },
+    {
+      "title": "On the trail",
+      "body": "Snip the whole young rosette for a fresh peppery cress; it fades fast once it flowers."
+    }
+  ],
+  "similar": [
+    "watercress",
+    "shepherds-purse"
+  ],
+  "photos": [
+    {
+      "src": "./photos/bittercress.jpg",
+      "alt": "Hairy Bittercress (Cardamine hirsuta)",
+      "credit": "Kevin Thiele from Perth, Australia",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

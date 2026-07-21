@@ -1,0 +1,48 @@
+{
+  "name": "Southern Crabapple",
+  "latin": "Malus angustifolia",
+  "family": "Rose",
+  "abundance": "uncommon",
+  "type": "Tree",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Small hard green-yellow apples",
+    "how": "Cooked into jelly, butter, cider",
+    "when": "Fall",
+    "where": "East Texas woods and old homesteads",
+    "value": "Pectin, vitamin C"
+  },
+  "caution": "Very sour and hard raw; always cooked. As with all apples, do not eat the seeds in quantity. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Fragrant pink spring blossoms give way to golf-ball apples too tart to bite. Gather them for the pot, not the hand."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Their sky-high pectin makes crabapples the secret weapon of jelly makers; they also cook into a fragrant apple butter."
+    }
+  ],
+  "similar": [
+    "mayhaw",
+    "american-persimmon"
+  ],
+  "photos": [
+    {
+      "src": "./photos/southern-crabapple.jpg",
+      "alt": "Southern Crabapple (Malus angustifolia)",
+      "credit": "Internet Archive Book Images",
+      "license": "No restrictions",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

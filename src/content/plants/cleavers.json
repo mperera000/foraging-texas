@@ -1,0 +1,51 @@
+{
+  "name": "Cleavers",
+  "latin": "Galium aparine",
+  "family": "Madder",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Cooked",
+    "Tea"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    2,
+    3,
+    4
+  ],
+  "facts": {
+    "what": "Young tender growth",
+    "how": "Cooked as a potherb; dried as tea",
+    "when": "Cool season",
+    "where": "Shady moist ground, fence rows",
+    "value": "A mild spring green"
+  },
+  "caution": "The clinging hairs soften with cooking; eat it cooked rather than raw. A safe, well-known plant. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A sprawling square-stemmed plant with whorls of narrow leaves and tiny hooks that make it cling to clothing, giving it the nickname 'sticky willy.'"
+    },
+    {
+      "title": "Uses",
+      "body": "Young growth cooks down into a mild green; the dried plant makes a traditional tea, and the seeds have been roasted as a coffee substitute."
+    }
+  ],
+  "similar": [
+    "chickweed",
+    "plantain"
+  ],
+  "photos": [
+    {
+      "src": "./photos/cleavers.jpg",
+      "alt": "Cleavers (Galium aparine)",
+      "credit": "Alvesgaspar",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "American Beech",
+  "latin": "Fagus grandifolia",
+  "family": "Beech",
+  "abundance": "uncommon",
+  "type": "Tree",
+  "uses": [
+    "Nuts"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Small triangular nuts",
+    "how": "Raw or roasted",
+    "when": "Fall",
+    "where": "Rich woods of far East Texas",
+    "value": "Fat, protein"
+  },
+  "caution": "Sweet and good in moderation; very large quantities of raw beechnuts can disagree, so roast and enjoy them as a treat. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Smooth gray bark and coppery fall leaves mark the beech. Its little three-sided nuts hide in soft burrs."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Fiddly to shell but genuinely delicious, best lightly roasted."
+    }
+  ],
+  "similar": [
+    "chinquapin",
+    "hickory-nut"
+  ],
+  "photos": [
+    {
+      "src": "./photos/american-beech.jpg",
+      "alt": "American Beech (Fagus grandifolia)",
+      "credit": "Famartin",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

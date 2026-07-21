@@ -1,0 +1,58 @@
+{
+  "name": "Loblolly Pine",
+  "latin": "Pinus taeda",
+  "family": "Pine",
+  "abundance": "abundant",
+  "type": "Tree",
+  "uses": [
+    "Tea"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Green needles for tea; inner bark in survival use",
+    "how": "Needles chopped and steeped",
+    "when": "Year-round",
+    "where": "The dominant pine of East Texas",
+    "value": "Vitamin C"
+  },
+  "caution": "True-pine needle tea is safe and vitamin-rich, but pregnant women should avoid pine needle tea, and never use yew or other toxic evergreens: confirm a true pine. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Long needles in bundles of three and big scaly cones. The workhorse pine of the East Texas timber belt."
+    },
+    {
+      "title": "Uses",
+      "body": "A handful of chopped green needles steeped (not boiled) makes a piney, citrusy tea high in vitamin C."
+    }
+  ],
+  "similar": [
+    "pinyon-pine",
+    "wax-myrtle"
+  ],
+  "photos": [
+    {
+      "src": "./photos/loblolly-pine.jpg",
+      "alt": "Loblolly Pine (Pinus taeda)",
+      "credit": "JMK",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

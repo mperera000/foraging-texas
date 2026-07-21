@@ -1,0 +1,55 @@
+{
+  "name": "Wild Mustard",
+  "latin": "Sinapis arvensis",
+  "family": "Mustard",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Cooked",
+    "Spice"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    2,
+    3,
+    4
+  ],
+  "flowerMonths": [
+    3,
+    4
+  ],
+  "facts": {
+    "what": "Young leaves; flowers; seeds",
+    "how": "Leaves cooked; flowers raw; seeds as mustard",
+    "when": "Cool season",
+    "where": "Fields and roadsides, often in yellow sheets",
+    "value": "Vitamins A and C; the seeds make mustard"
+  },
+  "caution": "A safe mustard-family plant; harvest young leaves away from sprayed fields. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Fields of four-petaled yellow flowers in early spring; every mustard has flowers in a cross of four petals and a peppery bite."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Young leaves cook into mustard greens; the bright flowers dress a salad, and the ground seeds are literally mustard."
+    }
+  ],
+  "similar": [
+    "peppergrass",
+    "shepherds-purse"
+  ],
+  "photos": [
+    {
+      "src": "./photos/wild-mustard.jpg",
+      "alt": "Wild Mustard (Sinapis arvensis)",
+      "credit": "Paweł Ryszawa",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

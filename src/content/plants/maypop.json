@@ -1,0 +1,56 @@
+{
+  "name": "Maypop",
+  "latin": "Passiflora incarnata",
+  "family": "Passionflower",
+  "abundance": "common",
+  "type": "Vine",
+  "uses": [
+    "Fruit",
+    "Tea"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    7,
+    8,
+    9
+  ],
+  "flowerMonths": [
+    5,
+    6,
+    7
+  ],
+  "facts": {
+    "what": "Egg-sized green fruit; leaves for tea",
+    "how": "Ripe pulp raw; dried leaves as calming tea",
+    "when": "Late summer",
+    "where": "Fence rows, fields, roadsides",
+    "value": "Vitamin C; the pulp is fragrant and tart"
+  },
+  "caution": "Eat only the pulp of ripe (yellowed, wrinkling) fruit; green unripe maypops are unpleasant. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "The intricate purple-and-white passionflower is unmistakable; the fruit 'pops' underfoot when ripe, hence the name."
+    },
+    {
+      "title": "Uses",
+      "body": "Scoop the sweet-tart seedy pulp straight from a ripe fruit. The dried leaves make a traditional mild, calming tea."
+    }
+  ],
+  "similar": [
+    "muscadine",
+    "turks-cap"
+  ],
+  "photos": [
+    {
+      "src": "./photos/maypop.jpg",
+      "alt": "Maypop (Passiflora incarnata)",
+      "credit": "H3ini",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Shepherd's Purse",
+  "latin": "Capsella bursa-pastoris",
+  "family": "Mustard",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    2,
+    3,
+    4
+  ],
+  "facts": {
+    "what": "Young rosette leaves; heart-shaped pods",
+    "how": "Young leaves raw or cooked",
+    "when": "Cool season",
+    "where": "Gardens, lots, roadsides",
+    "value": "A peppery mustard green"
+  },
+  "caution": "A safe common mustard; eat the young leaves before the plant turns tough and bitter. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Named for its distinctive little heart- or purse-shaped seed pods marching up the stem. The basal leaves resemble a small dandelion."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Young leaves are a peppery green raw or lightly cooked; the plant is a prized potherb across the world."
+    }
+  ],
+  "similar": [
+    "peppergrass",
+    "bittercress"
+  ],
+  "photos": [
+    {
+      "src": "./photos/shepherds-purse.jpg",
+      "alt": "Shepherd's Purse (Capsella bursa-pastoris)",
+      "credit": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

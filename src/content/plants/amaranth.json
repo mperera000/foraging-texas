@@ -1,0 +1,57 @@
+{
+  "name": "Amaranth",
+  "latin": "Amaranthus retroflexus",
+  "family": "Amaranth",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Cooked",
+    "Flour"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "flowerMonths": [
+    7,
+    8
+  ],
+  "facts": {
+    "what": "Young leaves; seeds",
+    "how": "Leaves cooked like spinach; seeds as grain",
+    "when": "Warm months for greens",
+    "where": "Gardens, fields, disturbed rich soil",
+    "value": "Protein, vitamins A and C, calcium; seeds are a grain"
+  },
+  "caution": "A safe and nutritious green. Harvest from unsprayed ground, and as with spinach, don't rely on it as your only green day after day. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Also called pigweed: upright, red-rooted, with dense green flower spikes. One of the world's oldest cultivated greens and grains hiding in the garden as a weed."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Young leaves cook down like a mild spinach; the tiny seeds thresh out by the thousands and cook into a nutty porridge or grind to flour."
+    }
+  ],
+  "similar": [
+    "lambs-quarters",
+    "purslane"
+  ],
+  "photos": [
+    {
+      "src": "./photos/amaranth.jpg",
+      "alt": "Amaranth (Amaranthus retroflexus)",
+      "credit": "Lynk media",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Red Mulberry",
+  "latin": "Morus rubra",
+  "family": "Mulberry",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    4,
+    5,
+    6
+  ],
+  "facts": {
+    "what": "Dark red-black berries",
+    "how": "Raw by the handful, pie, jam",
+    "when": "Spring into early summer",
+    "where": "Woods, yards, fence rows",
+    "value": "Sugars, vitamin C, iron"
+  },
+  "caution": "Eat only fully ripe (dark) berries; unripe white-and-green fruit and the milky sap can upset the stomach. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Spread a sheet and shake the branches: ripe mulberries rain down and stain everything a cheerful purple. Wash and use quickly, as they don't keep."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Sweet and mild, a little flat on their own, so cooks brighten them with lemon in pies and jams."
+    }
+  ],
+  "similar": [
+    "dewberry",
+    "black-cherry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/red-mulberry.jpg",
+      "alt": "Red Mulberry (Morus rubra)",
+      "credit": "Beko",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

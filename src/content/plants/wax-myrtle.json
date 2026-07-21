@@ -1,0 +1,58 @@
+{
+  "name": "Wax Myrtle",
+  "latin": "Morella cerifera",
+  "family": "Bayberry",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Spice"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Aromatic leaves; waxy berries",
+    "how": "Leaves as a bay-leaf substitute",
+    "when": "Leaves year-round",
+    "where": "Wet East Texas woods and coast",
+    "value": "Aromatic seasoning"
+  },
+  "caution": "Use the leaves like bay: to flavor a pot, then removed before eating, not chewed. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "An evergreen shrub whose crushed leaves smell resinous and clean; the pale berries are coated in fragrant wax once used for candles."
+    },
+    {
+      "title": "Uses",
+      "body": "A leaf or two flavors soups and stews just like a bay leaf. Fish it out before serving."
+    }
+  ],
+  "similar": [
+    "eastern-redcedar",
+    "yaupon-holly"
+  ],
+  "photos": [
+    {
+      "src": "./photos/wax-myrtle.jpg",
+      "alt": "Wax Myrtle (Morella cerifera)",
+      "credit": "Alex Abair",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

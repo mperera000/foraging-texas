@@ -1,0 +1,54 @@
+{
+  "name": "Sow Thistle",
+  "latin": "Sonchus oleraceus",
+  "family": "Aster",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    2,
+    3,
+    4,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Young leaves",
+    "how": "Raw when young, cooked when older",
+    "when": "Cool months",
+    "where": "Gardens, lots, roadsides",
+    "value": "A mild dandelion-like green"
+  },
+  "caution": "Soft spineless leaves and milky sap; a harmless dandelion relative. Harvest away from sprayed ground. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Looks thistly but the soft edges don't bite. Break a stem and it bleeds white, like its cousin the dandelion."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Young leaves are mild and juicy in salad; older ones lose their slight bitterness with a quick cooking."
+    }
+  ],
+  "similar": [
+    "dandelion",
+    "wild-lettuce"
+  ],
+  "photos": [
+    {
+      "src": "./photos/sow-thistle.jpg",
+      "alt": "Sow Thistle (Sonchus oleraceus)",
+      "credit": "Alvesgaspar",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

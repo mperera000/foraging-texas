@@ -1,0 +1,54 @@
+{
+  "name": "Black Locust",
+  "latin": "Robinia pseudoacacia",
+  "family": "Legume",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    4,
+    5
+  ],
+  "flowerMonths": [
+    4,
+    5
+  ],
+  "facts": {
+    "what": "Fragrant white flowers ONLY",
+    "how": "Flowers raw or as fritters",
+    "when": "Late spring",
+    "where": "Roadsides, old fields, woods edges",
+    "value": "Nectar-sweet; a fleeting spring treat"
+  },
+  "caution": "Eat ONLY the white flowers. The bark, leaves, seeds, and pods of black locust are toxic. Be sure of the tree and use the blossoms only. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Drooping clusters of sweet-pea-shaped white flowers scent whole roadsides for a week or two in spring. Every other part of the tree is off the menu."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The blossoms are honey-sweet raw and classic dipped in batter and fried into fritters."
+    }
+  ],
+  "similar": [
+    "redbud",
+    "mimosa"
+  ],
+  "photos": [
+    {
+      "src": "./photos/black-locust.jpg",
+      "alt": "Black Locust (Robinia pseudoacacia)",
+      "credit": "Ввласенко",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

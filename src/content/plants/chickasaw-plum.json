@@ -1,0 +1,52 @@
+{
+  "name": "Chickasaw Plum",
+  "latin": "Prunus angustifolia",
+  "family": "Rose",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    6,
+    7
+  ],
+  "flowerMonths": [
+    3
+  ],
+  "facts": {
+    "what": "Small red-yellow plums",
+    "how": "Raw, jelly, sauce",
+    "when": "Early summer",
+    "where": "Thickets, roadsides, old fields",
+    "value": "Sugars, vitamin C"
+  },
+  "caution": "Flesh only; discard cracked pits (cyanide-forming compounds). Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Chickasaw plums grow in dense sun-loving thickets that turn red in June. The fruit is smaller than a Mexican plum but sweeter when fully ripe."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Their high pectin makes them a jelly-maker's favorite: they set firm with little help."
+    }
+  ],
+  "similar": [
+    "mexican-plum",
+    "dewberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/chickasaw-plum.jpg",
+      "alt": "Chickasaw Plum (Prunus angustifolia)",
+      "credit": "Lm13700",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "American Persimmon",
+  "latin": "Diospyros virginiana",
+  "family": "Ebony",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "Orange fruit, dead ripe only",
+    "how": "Raw, pudding, dried into fruit leather",
+    "when": "After first frosts, September to November",
+    "where": "East Texas woods and old fields",
+    "value": "Sugars, vitamin C, fiber"
+  },
+  "caution": "Underripe fruit is mouth-puckeringly astringent. Take only fruit that is soft, wrinkled, and falling on its own. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Patience is the whole skill. A persimmon that fights you off the branch will dry your mouth to felt; one that drops into your palm tastes of dates and honey. Gather from the ground after a frost."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Run ripe fruit through a food mill to lose the seeds, then bake the pulp into puddings and quick breads or spread it thin and dry it into leather."
+    }
+  ],
+  "similar": [
+    "texas-persimmon",
+    "mayhaw"
+  ],
+  "photos": [
+    {
+      "src": "./photos/american-persimmon.jpg",
+      "alt": "American Persimmon (Diospyros virginiana)",
+      "credit": "Gaiacoyote",
+      "license": "CC0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

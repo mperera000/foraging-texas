@@ -1,0 +1,49 @@
+{
+  "name": "Lotebush",
+  "latin": "Ziziphus obtusifolia",
+  "family": "Buckthorn",
+  "abundance": "common",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "West"
+  ],
+  "months": [
+    7,
+    8,
+    9
+  ],
+  "facts": {
+    "what": "Small blue-black fruit",
+    "how": "Raw",
+    "when": "Summer",
+    "where": "Dry South and West Texas",
+    "value": "Sugars"
+  },
+  "caution": "Edible in small amounts when ripe; a spiny, tangled shrub to reach into carefully. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A gray, zig-zagging thorny shrub of dry ground, a wild relative of the jujube, with thin sweet fruit around a large stone."
+    },
+    {
+      "title": "On the trail",
+      "body": "More survival food than delicacy, but a real one where little else grows."
+    }
+  ],
+  "similar": [
+    "brasil-bluewood",
+    "wolfberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/lotebush.jpg",
+      "alt": "Lotebush (Ziziphus obtusifolia)",
+      "credit": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

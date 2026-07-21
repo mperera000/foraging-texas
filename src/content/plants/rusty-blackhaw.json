@@ -1,0 +1,49 @@
+{
+  "name": "Rusty Blackhaw",
+  "latin": "Viburnum rufidulum",
+  "family": "Moschatel",
+  "abundance": "uncommon",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "Central",
+    "East"
+  ],
+  "months": [
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Blue-black berries with a bloom",
+    "how": "Raw ripe, or cooked into a preserve",
+    "when": "Fall",
+    "where": "Woodland edges and slopes",
+    "value": "Sugars"
+  },
+  "caution": "Eat only fully soft, dark, sweet fruit; the flat seed is not eaten. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A small tree with glossy leaves that flare red in autumn and clusters of raisin-sweet blue-black fruit dusted with a pale bloom."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Ripe fruit tastes of dates and prunes; the thin flesh around the seed makes a modest but pleasant preserve."
+    }
+  ],
+  "similar": [
+    "american-persimmon",
+    "farkleberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/rusty-blackhaw.jpg",
+      "alt": "Rusty Blackhaw (Viburnum rufidulum)",
+      "credit": "James H. Miller, USDA Forest Service, Bugwood.org",
+      "license": "CC BY 3.0 us",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

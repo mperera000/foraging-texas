@@ -1,0 +1,52 @@
+{
+  "name": "Live Oak Acorn",
+  "latin": "Quercus virginiana",
+  "family": "Beech",
+  "abundance": "abundant",
+  "type": "Tree",
+  "uses": [
+    "Nuts",
+    "Flour"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "Acorns, leached of tannin",
+    "how": "Ground into flour after leaching",
+    "when": "Fall",
+    "where": "The iconic spreading live oak, statewide",
+    "value": "Starch, fat, calories"
+  },
+  "caution": "Raw acorns are bitter and hard on the gut from tannins; they must be leached in repeated changes of water until no longer bitter before eating. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Live oak acorns are among the least bitter and were a Native staple. Gather sound, unwormed nuts as they drop."
+    },
+    {
+      "title": "Leaching and flour",
+      "body": "Shell, then soak or boil in many changes of water until the bitterness is gone. Dry and grind the result into a rich, nutty flour."
+    }
+  ],
+  "similar": [
+    "bur-oak-acorn",
+    "pecan"
+  ],
+  "photos": [
+    {
+      "src": "./photos/live-oak-acorn.jpg",
+      "alt": "Live Oak Acorn (Quercus virginiana)",
+      "credit": "KATHERINE WAGNER-REISS",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

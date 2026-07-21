@@ -1,0 +1,58 @@
+{
+  "name": "White Clover",
+  "latin": "Trifolium repens",
+  "family": "Legume",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Tea"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "flowerMonths": [
+    4,
+    5,
+    6
+  ],
+  "facts": {
+    "what": "Flowers and young leaves",
+    "how": "Flowers raw or as tea; leaves cooked",
+    "when": "Spring into summer",
+    "where": "Lawns, fields, roadsides everywhere",
+    "value": "A mild sweet nibble"
+  },
+  "caution": "Eat clover in modest amounts and best cooked or dried for tea, since large quantities of raw clover can cause bloating. Harvest from unsprayed lawns. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "The familiar three-leaflet lawn clover with round white flower heads. Truly abundant and easy to know."
+    },
+    {
+      "title": "Uses",
+      "body": "The sweet flower heads make a pleasant nibble and a mild tea; young leaves are best lightly cooked."
+    }
+  ],
+  "similar": [
+    "violet",
+    "common-mallow"
+  ],
+  "photos": [
+    {
+      "src": "./photos/white-clover.jpg",
+      "alt": "White Clover (Trifolium repens)",
+      "credit": "Hans Hillewaert",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

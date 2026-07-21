@@ -1,0 +1,50 @@
+{
+  "name": "Honey Locust",
+  "latin": "Gleditsia triacanthos",
+  "family": "Legume",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Flour"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "Sweet pulp inside long pods",
+    "how": "Pulp eaten raw or dried and ground",
+    "when": "Fall",
+    "where": "River bottoms and fence rows",
+    "value": "Sugars"
+  },
+  "caution": "Eat the sweet pulp, not the hard seeds. Do not confuse with the toxic black locust: honey locust has long twisted pods with sweet pulp and fierce branched thorns. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Foot-long twisting brown pods and, on wild trees, alarming branched thorns. Inside the pods is a sticky sweet pulp."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The honey-sweet pulp can be scraped and eaten or dried and ground into a sweetener, much like mesquite."
+    }
+  ],
+  "similar": [
+    "honey-mesquite",
+    "kudzu"
+  ],
+  "photos": [
+    {
+      "src": "./photos/honey-locust.jpg",
+      "alt": "Honey Locust (Gleditsia triacanthos)",
+      "credit": "Cbarlow",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

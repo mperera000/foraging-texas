@@ -1,0 +1,56 @@
+{
+  "name": "Broadleaf Plantain",
+  "latin": "Plantago major",
+  "family": "Plantain",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Cooked",
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "facts": {
+    "what": "Young leaves; seeds",
+    "how": "Young leaves raw or cooked; seeds as a psyllium-like fiber",
+    "when": "Most of the growing season",
+    "where": "Lawns, paths, compacted ground everywhere",
+    "value": "Vitamins A, C, K; the seed is a fiber source"
+  },
+  "caution": "A safe, mild, extremely common plant. Take young leaves, and harvest away from sprayed lawns. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A flat rosette of oval leaves with strong parallel veins that string like celery when you tear one, and a slim seed spike up the middle. Not the banana."
+    },
+    {
+      "title": "Uses",
+      "body": "The youngest leaves are a mild salad green; older ones cook down. The seed is the same family as store-bought psyllium fiber, and the crushed leaf is a famous field poultice for stings."
+    }
+  ],
+  "similar": [
+    "dandelion",
+    "cleavers"
+  ],
+  "photos": [
+    {
+      "src": "./photos/plantain.jpg",
+      "alt": "Broadleaf Plantain (Plantago major)",
+      "credit": "Jerzy Opioła",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

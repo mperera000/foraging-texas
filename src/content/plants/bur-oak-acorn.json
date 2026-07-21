@@ -1,0 +1,50 @@
+{
+  "name": "Bur Oak Acorn",
+  "latin": "Quercus macrocarpa",
+  "family": "Beech",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Nuts",
+    "Flour"
+  ],
+  "regions": [
+    "Central",
+    "East"
+  ],
+  "months": [
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Very large acorns",
+    "how": "Leached, then eaten or ground to flour",
+    "when": "Fall",
+    "where": "River bottoms and prairies",
+    "value": "Starch, fat"
+  },
+  "caution": "Leach out the tannins in repeated water changes until no bitterness remains before eating any acorn. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Bur oak grows the biggest acorn of any Texas oak, capped in a shaggy fringe. Its size makes shelling and leaching far less tedious."
+    },
+    {
+      "title": "Leaching and flour",
+      "body": "The lower-tannin acorns of white-oak-group trees like bur oak leach quickly. Grind the sweet result for baking."
+    }
+  ],
+  "similar": [
+    "live-oak-acorn",
+    "hickory-nut"
+  ],
+  "photos": [
+    {
+      "src": "./photos/bur-oak-acorn.jpg",
+      "alt": "Bur Oak Acorn (Quercus macrocarpa)",
+      "credit": "Ryan Hodnett",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

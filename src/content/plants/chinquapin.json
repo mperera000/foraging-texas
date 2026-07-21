@@ -1,0 +1,48 @@
+{
+  "name": "Chinquapin",
+  "latin": "Castanea pumila",
+  "family": "Beech",
+  "abundance": "uncommon",
+  "type": "Shrub",
+  "uses": [
+    "Nuts"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Small sweet chestnuts",
+    "how": "Raw or roasted",
+    "when": "Fall",
+    "where": "Sandy East Texas woods",
+    "value": "Starch, some protein"
+  },
+  "caution": "The spiny burr bites; open it carefully. The nut itself is simply a small sweet chestnut. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Each spiny burr holds a single glossy brown nut. Tread the burrs open or wear gloves."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "A true chestnut in miniature, sweet enough to eat raw and lovely roasted."
+    }
+  ],
+  "similar": [
+    "american-beech",
+    "hickory-nut"
+  ],
+  "photos": [
+    {
+      "src": "./photos/chinquapin.jpg",
+      "alt": "Chinquapin (Castanea pumila)",
+      "credit": "Matthew C. Perry",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

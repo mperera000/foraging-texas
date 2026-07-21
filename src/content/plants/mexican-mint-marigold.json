@@ -1,0 +1,54 @@
+{
+  "name": "Mexican Mint Marigold",
+  "latin": "Tagetes lucida",
+  "family": "Aster",
+  "abundance": "uncommon",
+  "type": "Ground",
+  "uses": [
+    "Tea",
+    "Spice"
+  ],
+  "regions": [
+    "Central",
+    "West"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "flowerMonths": [
+    10
+  ],
+  "facts": {
+    "what": "Anise-scented leaves; yellow flowers",
+    "how": "Fresh or dried as a tarragon substitute and tea",
+    "when": "Fall bloom",
+    "where": "Gardens and naturalized in Central/South Texas",
+    "value": "Aromatic; sweet anise flavor"
+  },
+  "caution": "A well-known culinary herb; confirm the sweet anise scent. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Narrow glossy leaves that smell strongly of anise, topped by small golden marigold flowers in fall."
+    },
+    {
+      "title": "Uses",
+      "body": "Texas cooks use it as 'Texas tarragon,' and its leaves make a sweet, licorice-like tea."
+    }
+  ],
+  "similar": [
+    "beebalm",
+    "frostweed"
+  ],
+  "photos": [
+    {
+      "src": "./photos/mexican-mint-marigold.jpg",
+      "alt": "Mexican Mint Marigold (Tagetes lucida)",
+      "credit": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Redberry Juniper",
+  "latin": "Juniperus pinchotii",
+  "family": "Cypress",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Spice"
+  ],
+  "regions": [
+    "West"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "Reddish berries (cones)",
+    "how": "A few as seasoning",
+    "when": "Fall",
+    "where": "West Texas rangeland",
+    "value": "Aromatic seasoning"
+  },
+  "caution": "A seasoning in tiny amounts only; not a food, and unsafe in quantity. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Unlike its blue-fruited cousins, this West Texas juniper carries coppery-red berries."
+    },
+    {
+      "title": "Uses",
+      "body": "Same rule as any juniper: a pinch of crushed berry for aroma, nothing more."
+    }
+  ],
+  "similar": [
+    "ashe-juniper",
+    "eastern-redcedar"
+  ],
+  "photos": [
+    {
+      "src": "./photos/redberry-juniper.jpg",
+      "alt": "Redberry Juniper (Juniperus pinchotii)",
+      "credit": "CK Kelly",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

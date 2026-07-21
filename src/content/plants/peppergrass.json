@@ -1,0 +1,53 @@
+{
+  "name": "Peppergrass",
+  "latin": "Lepidium virginicum",
+  "family": "Mustard",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Spice"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "facts": {
+    "what": "Leaves and green seed pods",
+    "how": "Raw as a peppery green and seasoning",
+    "when": "Spring into summer",
+    "where": "Roadsides, fields, disturbed ground",
+    "value": "Vitamin C; a free pepper-cress"
+  },
+  "caution": "A safe mustard-family plant; confirm the peppery taste and the tiny round flat pods. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A wiry weed hung with hundreds of tiny round flat green pods up the stem. Chew a leaf or pod: sharp black pepper and cress."
+    },
+    {
+      "title": "Uses",
+      "body": "The green pods are a wild pepper and caper both; scatter the leaves and pods into salads for free heat."
+    }
+  ],
+  "similar": [
+    "shepherds-purse",
+    "wild-mustard"
+  ],
+  "photos": [
+    {
+      "src": "./photos/peppergrass.jpg",
+      "alt": "Peppergrass (Lepidium virginicum)",
+      "credit": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

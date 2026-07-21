@@ -1,0 +1,56 @@
+{
+  "name": "Common Sunflower",
+  "latin": "Helianthus annuus",
+  "family": "Aster",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Nuts"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    8,
+    9,
+    10
+  ],
+  "flowerMonths": [
+    6,
+    7,
+    8
+  ],
+  "facts": {
+    "what": "Seeds; unopened flower buds",
+    "how": "Seeds roasted; buds steamed like artichoke",
+    "when": "Late summer for seeds",
+    "where": "Roadsides, fields, disturbed ground everywhere",
+    "value": "Fat, protein"
+  },
+  "caution": "Straightforward and safe; harvest from ground away from sprayed roadsides. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Wild sunflowers are smaller than the crop but the seeds are the same food. Cut heads as the backs yellow and the seeds firm up; dry them before shelling."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Roast the shelled seeds for snacking, or steam the unopened green buds and eat the base like a tiny artichoke."
+    }
+  ],
+  "similar": [
+    "sunchoke",
+    "evening-primrose"
+  ],
+  "photos": [
+    {
+      "src": "./photos/common-sunflower.jpg",
+      "alt": "Common Sunflower (Helianthus annuus)",
+      "credit": "Evelyn Simak",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

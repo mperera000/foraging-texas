@@ -1,0 +1,54 @@
+{
+  "name": "Field Garlic",
+  "latin": "Allium vineale",
+  "family": "Amaryllis",
+  "abundance": "abundant",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "Hollow leaves and small bulbs",
+    "how": "Anywhere chives or garlic belong",
+    "when": "Cool months",
+    "where": "Lawns, fields, roadsides",
+    "value": "Onion-family flavor"
+  },
+  "caution": "THE ONION RULE HAS NO EXCEPTIONS: if it does not smell strongly of onion or garlic, do not eat it. Toxic look-alikes grow in the same lawns but have no smell. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Round hollow grass-like leaves in a clump, and the giveaway: crush one and the whole plant must reek of garlic. No smell, no eating."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The green tops are wild chives and the little bulbs are a sharp garlic; both go into anything savory."
+    }
+  ],
+  "similar": [
+    "canada-wild-onion",
+    "peppergrass"
+  ],
+  "photos": [
+    {
+      "src": "./photos/field-garlic.jpg",
+      "alt": "Field Garlic (Allium vineale)",
+      "credit": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

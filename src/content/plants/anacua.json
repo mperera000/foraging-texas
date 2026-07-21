@@ -1,0 +1,51 @@
+{
+  "name": "Anacua",
+  "latin": "Ehretia anacua",
+  "family": "Borage",
+  "abundance": "uncommon",
+  "type": "Tree",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "West",
+    "Central"
+  ],
+  "months": [
+    5,
+    6,
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Small orange-yellow fruit",
+    "how": "Raw",
+    "when": "Spring and again in fall",
+    "where": "South and Central Texas brushland",
+    "value": "Sugars"
+  },
+  "caution": "Mild and sweet, eaten fresh in small amounts. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "The 'sandpaper tree,' named for its rough leaves, drops fragrant white flower clusters and then sweet orange fruit that birds adore."
+    },
+    {
+      "title": "On the trail",
+      "body": "A pleasant fresh nibble rather than a kitchen crop; the fruit is small and mostly seed."
+    }
+  ],
+  "similar": [
+    "brasil-bluewood",
+    "anacahuita"
+  ],
+  "photos": [
+    {
+      "src": "./photos/anacua.jpg",
+      "alt": "Anacua (Ehretia anacua)",
+      "credit": "Carlos Abrego",
+      "license": "CC BY-SA 2.5",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

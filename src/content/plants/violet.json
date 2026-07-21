@@ -1,0 +1,55 @@
+{
+  "name": "Common Blue Violet",
+  "latin": "Viola sororia",
+  "family": "Violet",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    2,
+    3,
+    4
+  ],
+  "flowerMonths": [
+    2,
+    3,
+    4
+  ],
+  "facts": {
+    "what": "Flowers and young leaves",
+    "how": "Raw in salads; flowers candied or as syrup",
+    "when": "Early spring",
+    "where": "Shady lawns, woods edges",
+    "value": "Vitamins A and C"
+  },
+  "caution": "Eat the leaves and FLOWERS of true violets only. Skip the roots and seeds, and never confuse with unrelated yellow-flowered plants sometimes called violets. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Heart-shaped leaves and five-petaled blue-purple flowers low in the spring lawn. A gentle, cheerful edible."
+    },
+    {
+      "title": "Uses",
+      "body": "Toss leaves and flowers into salads, candy the blooms for cakes, or steep them into a jewel-colored violet syrup."
+    }
+  ],
+  "similar": [
+    "white-clover",
+    "spiderwort"
+  ],
+  "photos": [
+    {
+      "src": "./photos/violet.jpg",
+      "alt": "Common Blue Violet (Viola sororia)",
+      "credit": "Cbaile19",
+      "license": "CC0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

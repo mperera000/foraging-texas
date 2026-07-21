@@ -1,0 +1,49 @@
+{
+  "name": "Southern Blackberry",
+  "latin": "Rubus argutus",
+  "family": "Rose",
+  "abundance": "abundant",
+  "type": "Vine",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    5,
+    6
+  ],
+  "facts": {
+    "what": "Black aggregate berries",
+    "how": "Raw, cobbler, jam",
+    "when": "Late spring into summer",
+    "where": "Sunny fence rows, clearings, roadsides",
+    "value": "Sugars, vitamin C, fiber"
+  },
+  "caution": "No toxic look-alikes; the only hazards are thorns and the chiggers in the patch. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Upright thorny canes, unlike the ground-running dewberry. Pick fruit that is fully dull-black and releases at a touch; red means wait."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The archetypal wild berry. Eat them warm off the cane, or bake the survivors into a cobbler."
+    }
+  ],
+  "similar": [
+    "dewberry",
+    "red-mulberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/blackberry.jpg",
+      "alt": "Southern Blackberry (Rubus argutus)",
+      "credit": "W.carter",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Agave",
+  "latin": "Agave americana",
+  "family": "Asparagus",
+  "abundance": "common",
+  "type": "Cactus",
+  "uses": [
+    "Cooked"
+  ],
+  "regions": [
+    "West",
+    "Central"
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "facts": {
+    "what": "The heart and flower stalk, cooked",
+    "how": "Slow pit-roasted; stalk roasted",
+    "when": "Year-round; stalk before it blooms",
+    "where": "Rocky West and Central Texas",
+    "value": "Starch, sugars"
+  },
+  "caution": "Raw agave is caustic and full of irritating crystals: it is edible ONLY after long cooking. The sap can burn skin. This is a traditional pit-roast food, not something to eat raw. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A giant rosette of thick spine-tipped leaves that sends up a towering flower mast once in its life. Also called the century plant."
+    },
+    {
+      "title": "Uses",
+      "body": "Pit-roasting for a day or more turns the fibrous heart sweet and molasses-dark; the roasted flower stalk is food too. The plant is the source of agave syrup and, elsewhere, tequila and mezcal."
+    }
+  ],
+  "similar": [
+    "sotol",
+    "yucca"
+  ],
+  "photos": [
+    {
+      "src": "./photos/agave.jpg",
+      "alt": "Agave (Agave americana)",
+      "credit": "Jim Evans",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

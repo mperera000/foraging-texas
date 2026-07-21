@@ -1,0 +1,56 @@
+{
+  "name": "Lemon Beebalm",
+  "latin": "Monarda citriodora",
+  "family": "Mint",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Tea",
+    "Spice"
+  ],
+  "regions": [
+    "Central",
+    "East",
+    "West"
+  ],
+  "months": [
+    5,
+    6,
+    7
+  ],
+  "flowerMonths": [
+    5,
+    6
+  ],
+  "facts": {
+    "what": "Leaves and flowers",
+    "how": "Fresh or dried as tea and seasoning",
+    "when": "Late spring into summer",
+    "where": "Prairies, roadsides, open fields",
+    "value": "Aromatic; oregano-thyme notes"
+  },
+  "caution": "A well-known safe mint-family herb; simply confirm the square stem and minty aroma. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Whorls of pink-lavender flowers stack up the square stem, and the crushed leaves smell of citrus, oregano, and thyme."
+    },
+    {
+      "title": "Uses",
+      "body": "A bright herbal tea and a fine wild seasoning for beans and meat; the flowers are edible too."
+    }
+  ],
+  "similar": [
+    "mexican-mint-marigold",
+    "frostweed"
+  ],
+  "photos": [
+    {
+      "src": "./photos/beebalm.jpg",
+      "alt": "Lemon Beebalm (Monarda citriodora)",
+      "credit": "Nadiatalent",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

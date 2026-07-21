@@ -1,0 +1,53 @@
+{
+  "name": "Black Cherry",
+  "latin": "Prunus serotina",
+  "family": "Rose",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    6,
+    7,
+    8
+  ],
+  "flowerMonths": [
+    4
+  ],
+  "facts": {
+    "what": "Small dark cherries",
+    "how": "Cooked into syrup, jelly, wine; raw sparingly",
+    "when": "Midsummer",
+    "where": "Woods and fence rows across the eastern half",
+    "value": "Sugars, antioxidants"
+  },
+  "caution": "Ripe fruit is fine, but the pits, leaves, twigs, and bark all contain cyanide-forming compounds; never chew the seeds and keep the greenery out. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Fully black cherries are sweet with a bitter-almond edge. Strip whole clusters and expect to lose half the weight to seeds."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Cooked and strained, black cherry becomes a deep, aromatic syrup that was the original flavor behind old-time cherry sodas."
+    }
+  ],
+  "similar": [
+    "mexican-plum",
+    "red-mulberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/black-cherry.jpg",
+      "alt": "Black Cherry (Prunus serotina)",
+      "credit": "Wikimedia Commons contributor",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Yucca",
+  "latin": "Yucca",
+  "family": "Asparagus",
+  "abundance": "abundant",
+  "type": "Cactus",
+  "uses": [
+    "Cooked",
+    "Raw"
+  ],
+  "regions": [
+    "West",
+    "Central"
+  ],
+  "months": [
+    4,
+    5,
+    6
+  ],
+  "facts": {
+    "what": "Flower petals and flower stalk; fruit of some species",
+    "how": "Petals raw or cooked; stalk roasted young",
+    "when": "Spring bloom",
+    "where": "Dry ground statewide",
+    "value": "Modest calories; the petals are the easy food"
+  },
+  "caution": "Eat the petals (remove the bitter green centers) and only the young stalk before it hardens. Roots are not food. Confirm you have a yucca, not a look-alike agave. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A rosette of stiff sword-leaves sending up a tall spike of creamy bell flowers. Unlike agave, the leaves are not toothed along the edge."
+    },
+    {
+      "title": "Uses",
+      "body": "The crunchy petals go raw into salads or blanched into dishes; the tender young flower stalk can be roasted like a vegetable."
+    }
+  ],
+  "similar": [
+    "agave",
+    "sotol"
+  ],
+  "photos": [
+    {
+      "src": "./photos/yucca.jpg",
+      "alt": "Yucca (Yucca)",
+      "credit": "Ввласенко",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

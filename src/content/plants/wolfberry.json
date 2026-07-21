@@ -1,0 +1,50 @@
+{
+  "name": "Texas Wolfberry",
+  "latin": "Lycium carolinianum",
+  "family": "Nightshade",
+  "abundance": "uncommon",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "West",
+    "Central"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "Small red berries",
+    "how": "Raw or cooked",
+    "when": "Fall",
+    "where": "Coastal flats and dry South Texas",
+    "value": "A wild goji relative"
+  },
+  "caution": "This is the nightshade family: eat ONLY the ripe red berries of correctly identified wolfberry, never leaves or unripe fruit, and be certain of the plant. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A wild cousin of the cultivated goji, with small red berries on a spiny succulent-leaved shrub. Nightshade family means positive ID matters more than usual."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The ripe berries are mildly sweet-savory and were a traditional food, eaten fresh or dried."
+    }
+  ],
+  "similar": [
+    "ground-cherry",
+    "chile-pequin"
+  ],
+  "photos": [
+    {
+      "src": "./photos/wolfberry.jpg",
+      "alt": "Texas Wolfberry (Lycium carolinianum)",
+      "credit": "NPS Photo",
+      "license": "Public domain",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Anacahuita",
+  "latin": "Cordia boissieri",
+  "family": "Borage",
+  "abundance": "uncommon",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "West"
+  ],
+  "months": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "facts": {
+    "what": "White-fleshed fruit; showy flowers",
+    "how": "Fruit cooked into a preserve",
+    "when": "Summer",
+    "where": "South Texas, the 'wild olive'",
+    "value": "Sugars"
+  },
+  "caution": "The fruit is eaten cooked and in moderation; large amounts of the raw fruit can be purgative. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Big crepe-papery white flowers with yellow throats bloom much of the year on this South Texas shrub, followed by pale olive-like fruit."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Traditionally simmered into a sweet preserve; the flowers are also used in folk remedies."
+    }
+  ],
+  "similar": [
+    "anacua",
+    "brasil-bluewood"
+  ],
+  "photos": [
+    {
+      "src": "./photos/anacahuita.jpg",
+      "alt": "Anacahuita (Cordia boissieri)",
+      "credit": "Miwasatoshi",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

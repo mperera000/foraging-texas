@@ -1,0 +1,49 @@
+{
+  "name": "Texas Pinyon",
+  "latin": "Pinus remota",
+  "family": "Pine",
+  "abundance": "uncommon",
+  "type": "Tree",
+  "uses": [
+    "Nuts",
+    "Tea"
+  ],
+  "regions": [
+    "West"
+  ],
+  "months": [
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Pine nuts from the cones; needles for tea",
+    "how": "Nuts raw or roasted; needles steeped",
+    "when": "Fall for nuts",
+    "where": "West Texas hills and the Hill Country's western edge",
+    "value": "Fat, protein; vitamin C from needle tea"
+  },
+  "caution": "Pine nuts and needle tea from true pines are safe; simply be sure you have a pinyon and not an unrelated look-alike conifer. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "Heat opens the cones; the small rich seeds fall out. A good pinyon year is worth the drive to West Texas."
+    },
+    {
+      "title": "Uses",
+      "body": "The nuts are the classic pine nut of the Southwest. A handful of green needles steeped in hot water makes a piney, vitamin-C tea."
+    }
+  ],
+  "similar": [
+    "loblolly-pine",
+    "live-oak-acorn"
+  ],
+  "photos": [
+    {
+      "src": "./photos/pinyon-pine.jpg",
+      "alt": "Texas Pinyon (Pinus remota)",
+      "credit": "AlissJP",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

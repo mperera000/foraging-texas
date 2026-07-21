@@ -1,0 +1,54 @@
+{
+  "name": "Common Mallow",
+  "latin": "Malva neglecta",
+  "family": "Mallow",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Raw",
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Leaves and the round green seed 'cheeses'",
+    "how": "Leaves raw or cooked; the mucilage thickens soups",
+    "when": "Cool halves of the year",
+    "where": "Gardens, lots, sidewalk edges",
+    "value": "Vitamins A and C; a natural thickener"
+  },
+  "caution": "A safe, mild, very common plant; harvest away from sprayed ground. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Round scalloped leaves and small pale flowers, with flat button-like green fruits kids have long called 'cheeses.' A wild cousin of okra and hibiscus."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Mild leaves for salad or pot, and a mucilage that thickens soups like okra. The green 'cheeses' are a fun raw nibble."
+    }
+  ],
+  "similar": [
+    "white-clover",
+    "plantain"
+  ],
+  "photos": [
+    {
+      "src": "./photos/common-mallow.jpg",
+      "alt": "Common Mallow (Malva neglecta)",
+      "credit": "Robert Flogaus-Faust",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

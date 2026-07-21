@@ -1,0 +1,51 @@
+{
+  "name": "Tasajillo",
+  "latin": "Cylindropuntia leptocaulis",
+  "family": "Cactus",
+  "abundance": "common",
+  "type": "Cactus",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "West",
+    "Central"
+  ],
+  "months": [
+    10,
+    11,
+    12,
+    1
+  ],
+  "facts": {
+    "what": "Small red fruit",
+    "how": "Raw, de-spined",
+    "when": "Fall into winter",
+    "where": "Brush country and dry ground",
+    "value": "Sugars"
+  },
+  "caution": "This 'Christmas cactus' has vicious, easily-detached spines; de-spine carefully before eating. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A thin, pencil-jointed cholla that lights up with bright red fruit around the holidays, giving it its nickname."
+    },
+    {
+      "title": "Harvesting",
+      "body": "The fruit is small but persistent through winter. Burn or scrape off every spine before eating."
+    }
+  ],
+  "similar": [
+    "prickly-pear",
+    "cholla-buds"
+  ],
+  "photos": [
+    {
+      "src": "./photos/tasajillo.jpg",
+      "alt": "Tasajillo (Cylindropuntia leptocaulis)",
+      "credit": "User:Dhileas",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

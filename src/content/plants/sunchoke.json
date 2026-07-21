@@ -1,0 +1,55 @@
+{
+  "name": "Sunchoke",
+  "latin": "Helianthus tuberosus",
+  "family": "Aster",
+  "abundance": "uncommon",
+  "type": "Ground",
+  "uses": [
+    "Cooked",
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    10,
+    11,
+    12,
+    1
+  ],
+  "flowerMonths": [
+    9
+  ],
+  "facts": {
+    "what": "Knobby underground tubers",
+    "how": "Raw, roasted, or boiled like a potato",
+    "when": "After the tops die, fall into winter",
+    "where": "Moist ground, old fields, roadsides",
+    "value": "Inulin, iron, potassium"
+  },
+  "caution": "A safe, choice wild vegetable. Its inulin can cause gas for some people, so start small. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A tall wild sunflower whose real prize is underground: clusters of knobby tubers you dig after the plant dies back. Also called Jerusalem artichoke, though it is neither."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Sweet and nutty, crisp raw and creamy roasted, a genuinely excellent vegetable that once rivaled the potato."
+    }
+  ],
+  "similar": [
+    "common-sunflower",
+    "arrowhead"
+  ],
+  "photos": [
+    {
+      "src": "./photos/sunchoke.jpg",
+      "alt": "Sunchoke (Helianthus tuberosus)",
+      "credit": "Adrian Tync",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

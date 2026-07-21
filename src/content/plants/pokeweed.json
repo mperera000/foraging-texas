@@ -1,0 +1,49 @@
+{
+  "name": "Pokeweed",
+  "latin": "Phytolacca americana",
+  "family": "Pokeweed",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    3,
+    4
+  ],
+  "facts": {
+    "what": "Only the youngest spring shoots, thoroughly cooked",
+    "how": "Boiled in several changes of water ('poke sallet')",
+    "when": "Early spring only",
+    "where": "Fence rows, clearings, disturbed ground",
+    "value": "A traditional Southern spring green"
+  },
+  "caution": "POISONOUS raw. Only the young green shoots under about 6 inches are used, and only after boiling in at least two or three changes of water. The roots, berries, seeds, and mature purple stalks are toxic and can be fatal. If you are not fully confident, do not attempt this plant. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A big perennial that dies back yearly. In spring it sends up tender green shoots; by summer it is a rank plant with magenta stems and dark berries, all of it then toxic."
+    },
+    {
+      "title": "The traditional preparation",
+      "body": "'Poke sallet' is an old Southern dish made by boiling the young shoots in several changes of water, discarding each. This detoxifies them, and it is the only safe way they are eaten. Never eat the berries or root."
+    }
+  ],
+  "similar": [
+    "amaranth",
+    "curly-dock"
+  ],
+  "photos": [
+    {
+      "src": "./photos/pokeweed.jpg",
+      "alt": "Pokeweed (Phytolacca americana)",
+      "credit": "Robert Flogaus-Faust",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

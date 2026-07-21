@@ -1,0 +1,53 @@
+{
+  "name": "Frostweed",
+  "latin": "Verbesina virginica",
+  "family": "Aster",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Tea"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    9,
+    10
+  ],
+  "flowerMonths": [
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Leaves for a mild tea",
+    "how": "Dried leaves steeped",
+    "when": "Fall",
+    "where": "Shady woodland edges",
+    "value": "A gentle herbal tea"
+  },
+  "caution": "Used as a mild folk tea; a bitter herb best taken occasionally rather than in quantity. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Tall winged stems and white fall flowers; on the first hard freeze the stems split and extrude curls of ice, the 'frost' that names it."
+    },
+    {
+      "title": "Uses",
+      "body": "The dried leaves make a mild traditional tea; the plant is grown as much for its ribbon-ice spectacle and its butterflies."
+    }
+  ],
+  "similar": [
+    "beebalm",
+    "mexican-mint-marigold"
+  ],
+  "photos": [
+    {
+      "src": "./photos/frostweed.jpg",
+      "alt": "Frostweed (Verbesina virginica)",
+      "credit": "Reportingsjr",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

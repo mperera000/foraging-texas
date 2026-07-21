@@ -1,0 +1,53 @@
+{
+  "name": "Mexican Plum",
+  "latin": "Prunus mexicana",
+  "family": "Rose",
+  "abundance": "common",
+  "type": "Tree",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "Central",
+    "East"
+  ],
+  "months": [
+    7,
+    8,
+    9
+  ],
+  "flowerMonths": [
+    3
+  ],
+  "facts": {
+    "what": "Purple-red plums",
+    "how": "Raw, jam, jelly",
+    "when": "Late summer",
+    "where": "Woodland edges, fence rows, creek banks",
+    "value": "Sugars, vitamin C"
+  },
+  "caution": "Eat the flesh, never the cracked pits: like all wild cherries and plums the seeds carry cyanide-forming compounds. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Harvesting",
+      "body": "A single small tree can hang heavy with tart, thin-skinned plums. Pick the softest, darkest fruit; the tree fruits unevenly, so come back over a couple of weeks."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Tart and a little wild, Mexican plums make a jam or jelly with far more character than a grocery plum. Cook, strain, and sweeten."
+    }
+  ],
+  "similar": [
+    "chickasaw-plum",
+    "black-cherry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/mexican-plum.jpg",
+      "alt": "Mexican Plum (Prunus mexicana)",
+      "credit": "Internet Archive Book Images",
+      "license": "No restrictions",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

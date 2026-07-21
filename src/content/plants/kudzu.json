@@ -1,0 +1,53 @@
+{
+  "name": "Kudzu",
+  "latin": "Pueraria montana",
+  "family": "Legume",
+  "abundance": "common",
+  "type": "Vine",
+  "uses": [
+    "Raw",
+    "Tea"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    7,
+    8,
+    9
+  ],
+  "flowerMonths": [
+    8
+  ],
+  "facts": {
+    "what": "Grape-scented purple flowers; young leaves; starchy root",
+    "how": "Flowers into jelly and tea; young leaves cooked",
+    "when": "Late summer flowers",
+    "where": "Smothering East Texas roadsides and woods edges",
+    "value": "The flowers are fragrant and edible"
+  },
+  "caution": "A safe and famously invasive plant to harvest freely; just gather away from roadside spray. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "The vine that ate the South, blanketing everything it climbs. In late summer it hangs clusters of purple flowers that smell of grape soda."
+    },
+    {
+      "title": "Uses",
+      "body": "The flowers make a startling purple jelly and a fragrant tea; young leaves cook like any green, and the root is a traditional starch."
+    }
+  ],
+  "similar": [
+    "greenbrier",
+    "muscadine"
+  ],
+  "photos": [
+    {
+      "src": "./photos/kudzu.jpg",
+      "alt": "Kudzu (Pueraria montana)",
+      "credit": "M108t",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

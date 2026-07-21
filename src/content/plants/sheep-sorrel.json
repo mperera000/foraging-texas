@@ -1,0 +1,50 @@
+{
+  "name": "Sheep Sorrel",
+  "latin": "Rumex acetosella",
+  "family": "Buckwheat",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    3,
+    4,
+    5
+  ],
+  "facts": {
+    "what": "Arrow-shaped leaves",
+    "how": "Raw as a lemony garnish",
+    "when": "Spring",
+    "where": "Acid soils, lawns, fields",
+    "value": "Vitamin C; sharp and sour"
+  },
+  "caution": "The lemon tang is oxalic acid: a fine garnish and nibble, not a whole salad, and best skipped by those prone to kidney stones. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Small arrowhead leaves with backward-pointing lobes, low in lawns and poor soils. Pleasantly sour when you chew one."
+    },
+    {
+      "title": "On the trail",
+      "body": "A bright wild lemon: scatter a few leaves over fish or into a salad for a jolt of sourness."
+    }
+  ],
+  "similar": [
+    "wood-sorrel",
+    "curly-dock"
+  ],
+  "photos": [
+    {
+      "src": "./photos/sheep-sorrel.jpg",
+      "alt": "Sheep Sorrel (Rumex acetosella)",
+      "credit": "Robert Flogaus-Faust",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

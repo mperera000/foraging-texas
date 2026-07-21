@@ -1,0 +1,50 @@
+{
+  "name": "Carolina Buckthorn",
+  "latin": "Frangula caroliniana",
+  "family": "Buckthorn",
+  "abundance": "uncommon",
+  "type": "Shrub",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    8,
+    9,
+    10
+  ],
+  "facts": {
+    "what": "Red-ripening-to-black berries",
+    "how": "Ripe black fruit only, in moderation",
+    "when": "Late summer to fall",
+    "where": "Woodland edges and slopes",
+    "value": "Sugars"
+  },
+  "caution": "Eat only fully ripe BLACK fruit and only in small amounts; unripe red berries are purgative. Because buckthorns can disagree with people, this is a taste-and-wait plant. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Glossy strongly-veined leaves and berries that ripen through red to black on the same cluster. Only the black ones are for eating, sparingly."
+    },
+    {
+      "title": "On the trail",
+      "body": "A modest sweet snack for the cautious; better known to the birds than to foragers."
+    }
+  ],
+  "similar": [
+    "rusty-blackhaw",
+    "farkleberry"
+  ],
+  "photos": [
+    {
+      "src": "./photos/carolina-buckthorn.jpg",
+      "alt": "Carolina Buckthorn (Frangula caroliniana)",
+      "credit": "DouglasGoldman",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

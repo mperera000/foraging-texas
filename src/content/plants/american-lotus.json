@@ -1,0 +1,50 @@
+{
+  "name": "American Lotus",
+  "latin": "Nelumbo lutea",
+  "family": "Lotus",
+  "abundance": "uncommon",
+  "type": "Aquatic",
+  "uses": [
+    "Cooked",
+    "Nuts"
+  ],
+  "regions": [
+    "East"
+  ],
+  "months": [
+    7,
+    8,
+    9
+  ],
+  "facts": {
+    "what": "Seeds; young leaves; tubers",
+    "how": "Seeds raw or roasted; tubers and young leaves cooked",
+    "when": "Late summer for seeds",
+    "where": "Still lakes, oxbows, slow water of East Texas",
+    "value": "Starch, protein from the seeds"
+  },
+  "caution": "Harvest only from clean water, and be certain of the plant. A safe and choice water plant when the water is clean. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "Huge round leaves standing above the water and pale yellow flowers, followed by the famous shower-head seed pod. The only lotus native to the region."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The green seeds are a fresh nutty snack and the ripe ones roast like nuts; the starchy tubers cook like a potato and the unfurling young leaves are a cooked green."
+    }
+  ],
+  "similar": [
+    "cattail",
+    "arrowhead"
+  ],
+  "photos": [
+    {
+      "src": "./photos/american-lotus.jpg",
+      "alt": "American Lotus (Nelumbo lutea)",
+      "credit": "MathieuMD",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Strawberry Pitaya",
+  "latin": "Echinocereus enneacanthus",
+  "family": "Cactus",
+  "abundance": "common",
+  "type": "Cactus",
+  "uses": [
+    "Fruit"
+  ],
+  "regions": [
+    "West"
+  ],
+  "months": [
+    6,
+    7
+  ],
+  "facts": {
+    "what": "Red fruit tasting of strawberry",
+    "how": "Raw, once the spines are removed",
+    "when": "Early summer",
+    "where": "West Texas desert and brushland",
+    "value": "Sugars, vitamin C"
+  },
+  "caution": "Singe or scrub off the spines before handling, exactly as with prickly pear. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A clumping hedgehog cactus whose fruit genuinely tastes of strawberry, one of the best wild fruits of the desert."
+    },
+    {
+      "title": "Harvesting",
+      "body": "De-spine the fruit with a flame or a stiff brush, then peel. Sweet enough to eat by the handful."
+    }
+  ],
+  "similar": [
+    "prickly-pear",
+    "tasajillo"
+  ],
+  "photos": [
+    {
+      "src": "./photos/strawberry-pitaya.jpg",
+      "alt": "Strawberry Pitaya (Echinocereus enneacanthus)",
+      "credit": "Theguyfrommanuel",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

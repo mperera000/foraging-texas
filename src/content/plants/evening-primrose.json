@@ -1,0 +1,57 @@
+{
+  "name": "Evening Primrose",
+  "latin": "Oenothera biennis",
+  "family": "Evening primrose",
+  "abundance": "common",
+  "type": "Ground",
+  "uses": [
+    "Cooked",
+    "Raw"
+  ],
+  "regions": [
+    "East",
+    "Central",
+    "West"
+  ],
+  "months": [
+    3,
+    4,
+    10,
+    11
+  ],
+  "flowerMonths": [
+    5,
+    6
+  ],
+  "facts": {
+    "what": "First-year root; young leaves; flowers",
+    "how": "Root cooked; young leaves cooked; flowers raw",
+    "when": "Cool seasons for root and leaves",
+    "where": "Fields, roadsides, disturbed ground",
+    "value": "Starchy root; a mild green"
+  },
+  "caution": "Eat the first-year root cooked and the young leaves cooked; both are peppery and best not eaten in quantity raw. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A first-year rosette becomes a tall stalk of yellow flowers that open at dusk. The useful root is the fleshy taproot of the first-year plant."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "The cooked root is peppery and a little nutty, a wild parsnip of sorts; the young leaves cook down and the flowers garnish a plate."
+    }
+  ],
+  "similar": [
+    "common-sunflower",
+    "dandelion"
+  ],
+  "photos": [
+    {
+      "src": "./photos/evening-primrose.jpg",
+      "alt": "Evening Primrose (Oenothera biennis)",
+      "credit": "Christian Ferrer",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Giant Puffball",
+  "latin": "Calvatia gigantea",
+  "family": "Agaric",
+  "abundance": "seasonal",
+  "type": "Mushroom",
+  "uses": [
+    "Cooked"
+  ],
+  "regions": [
+    "East",
+    "Central"
+  ],
+  "months": [
+    9,
+    10,
+    11
+  ],
+  "facts": {
+    "what": "The firm white interior, cooked",
+    "how": "Sliced and fried",
+    "when": "Fall",
+    "where": "Meadows, pastures, open ground",
+    "value": "A mild, tofu-like mushroom"
+  },
+  "caution": "CUT EVERY PUFFBALL IN HALF before eating. The inside must be pure, uniform white like a marshmallow, with NO gills, stem, or outline of a mushroom-in-egg (that would be a deadly Amanita) and no yellowing (over-ripe and upsetting). Mushrooms demand expert confirmation. Never eat a wild plant on this guide's word alone. Confirm identity against several sources and learn the look-alikes first.",
+  "sections": [
+    {
+      "title": "Identification",
+      "body": "A firm white ball, sometimes as big as a soccer ball, sitting in a field. The test is internal: slice it and the flesh must be solid, even, and marshmallow-white throughout."
+    },
+    {
+      "title": "In the kitchen",
+      "body": "Slice the young white flesh and fry it; it soaks up butter and flavor like a mild mushroom steak. Discard any that show yellow or green inside."
+    }
+  ],
+  "similar": [
+    "chicken-of-the-woods",
+    "chanterelle"
+  ],
+  "photos": [
+    {
+      "src": "./photos/puffball.jpg",
+      "alt": "Giant Puffball (Calvatia gigantea)",
+      "credit": "Holger Krisp",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}
