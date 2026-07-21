@@ -13,19 +13,25 @@ const nav = [
   { href: "/plants", label: "All plants" },
 ];
 const path = Astro.url.pathname;
+
+// Social previews need absolute URLs, not site-relative paths.
+const canonical = new URL(path, Astro.site).href;
+const ogImageAbsolute = ogImage ? new URL(ogImage, Astro.site).href : undefined;
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex" />{/* not launching yet: PLAN.md §13a */}
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonical} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
-    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta property="og:url" content={canonical} />
+    {ogImageAbsolute && <meta property="og:image" content={ogImageAbsolute} />}
+    <meta name="twitter:card" content={ogImageAbsolute ? "summary_large_image" : "summary"} />
     <title>{title}</title>
   </head>
   <body class="min-h-dvh">
