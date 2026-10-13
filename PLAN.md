@@ -11,10 +11,6 @@ Foragingtexas.com holds twenty years of trusted foraging knowledge trapped in a 
 Blogger layout: a sidebar of ~300 blue text links, no search, no filtering, no mobile
 experience. The content is gold; the container is unusable by modern standards.
 
-**The real problem this project solves:** Malithi needs a portfolio piece that proves to
-future clients she can take a dated, content-heavy site and modernize it, both visually
-and structurally.
-
 ## 2. The Vision
 
 A "living field guide": warm, photographic, and organized around the one question a
@@ -22,22 +18,15 @@ forager actually has: *what's ripening right now?* Design language locked in the
 mockup: cream paper, deep forest green, chartreuse accents, amber color-blocks, Young
 Serif display type, arched photo frames, real photography.
 
-## 3. The Goal (three lines)
-
-1. **Accomplish:** a published portfolio piece with obvious before/after drama that makes
-   a stranger say "I want that done to my site."
-2. **Instead of today:** two shipped projects, neither of which demonstrates the very
-   sellable "modernize an existing site" skill.
-3. **Why now:** client hunting is starting; the portfolio needs its anchor piece.
+## 3. The Goal
 
 **Success test:** show old site + new site to someone for 30 seconds; they get it instantly.
 
 ## 4. Who It's For
 
-- **Primary:** potential clients (small businesses / solo experts with dated sites) skimming a portfolio.
-- **Secondary:** the demo must also genuinely work for its fictional user, a Texas forager
-  on a phone, in a field, deciding if a berry is worth picking.
-- **The owner:** Dr. Mark "Merriwether" Vorderbruggen. The finished demo gets emailed to him (see §14).
+- **Primary:** a Texas forager on a phone, in a field, deciding if a berry is worth picking.
+  The demo must genuinely work for that user.
+- **The owner:** Dr. Mark "Merriwether" Vorderbruggen.
 
 ## 5. User Flows
 
@@ -176,18 +165,8 @@ of times over.
 - **Days 1–2:** setup, data layer, 25 entries migrated to open data
 - **Days 3–5:** design system + three page types to mockup parity
 - **Days 6–7:** polish, a11y pass, SEO, local production build
-- **Later, when ready (see §13a):** deploy, case-study page, Merriwether email
+- **Later:** deploy, case-study page
 - Total to "done on my machine": **~1–1.5 weeks** part-time.
-
-## 13a. NOT LAUNCHING YET (current status)
-
-Malithi is not ready to put this site live. Until she says otherwise:
-
-- **Everything is built and verified locally** (`npm run dev` / `npm run build && npm run preview`). The finished site runs entirely on her machine.
-- **GitHub repo stays PRIVATE.** Push for backup, never for publishing. (A private repo is invisible to the world; going public later is one setting.)
-- **No hosting setup, no domain purchase, no Merriwether email, no community posts.** Phases 6b and 7 below are parked.
-- The nice part of the static-site choice: "going live later" is a 15-minute step (connect repo → deploy), and nothing built now has to change. There is no penalty for waiting.
-- **What "done" means for now:** the full site working locally + a folder of screenshots/screen-recording for showing people in person or privately.
 
 ## 14. The Content Gate (do not skip)
 
@@ -195,28 +174,23 @@ Malithi is not ready to put this site live. Until she says otherwise:
 - **Anything public** (deploy, portfolio, artifact shared beyond this session) ships ONLY:
   original write-ups in Malithi's own words + openly licensed photos (Wikimedia Commons /
   USDA), credited, **or** content used with Merriwether's written permission.
-- **The email (send when demo is polished):** short, warm, link to the live demo:
-  "I'm a web developer, longtime fan of the site. I rebuilt it as a design concept.
-  Want it? No strings." Best case: blessing/testimonial/first client story. No reply in
-  2 weeks: publish with the concept disclaimer and swapped content, exactly as built.
 - Footer always carries: "A redesign concept... not the official site" + safety disclaimer.
 
 ## 15. Distribution (the portfolio is the product)
 
 - **First 10 "users":** target clients and peers. Concrete moves, in order:
   1. Publish the case study on the portfolio (before/after opens the page).
-  2. Email Merriwether (owner blessing is the jackpot outcome).
-  3. Post the before/after to one design community (e.g. r/web_design showcase or a
+  2. Post the before/after to one design community (e.g. r/web_design showcase or a
      design Slack/Discord) framed as "unsolicited redesign of a beloved 2008 Blogger site."
-  4. LinkedIn/X post with the two screenshots side by side.
+  3. LinkedIn/X post with the two screenshots side by side.
 - **Growth loop:** none pretended. A portfolio piece grows by being shown; the case-study
   page IS the shareable unit. Metric: inquiries that mention the foraging piece.
 
 ## 16. Riskiest Assumption
 
-"A redesign concept of a niche foraging site will impress general clients."
+"A redesign concept of a niche foraging site will be clear at a glance."
 **Cheap test (before over-polishing):** once the Today page looks real, show it with the
-old site side-by-side to 5 people (ideally 2 small-business owners). If they don't react,
+old site side-by-side to 5 people. If they don't react,
 the case-study framing (not the build) needs work: lead harder with before/after.
 
 ## 17. Before Launch Checklist
@@ -232,13 +206,10 @@ the case-study framing (not the build) needs work: lead harder with before/after
 
 ## 18. Build Phases with Checkpoints
 
-**Phase 0 · Send-ahead** — Draft (don't yet send) the Merriwether email and park it in
-the repo. *No checkpoint needed.*
-
-**Phase 1 · Foundation** — Astro project, **private** GitHub repo, CLAUDE.md house rules,
+**Phase 1 · Foundation** — Astro project, GitHub repo, CLAUDE.md house rules,
 tokens file from the mockup (colors, Young Serif @font-face, radii). No hosting setup.
 > 🔖 CHECKPOINT: `npm run dev` shows a hello-world page with the tokens applied; repo
-> pushed and confirmed private.
+> pushed.
 
 **Phase 2 · Data layer** — plant schema, 25 entries written in original words from open
 data (USDA PLANTS, field-guide facts), photo pipeline (Commons downloads + credits file).
@@ -259,18 +230,15 @@ empty state. Server-rendered list, JS enhancement for filtering.
 
 **Phase 6 · Polish** — a11y pass, perf pass (image weights!), SEO meta, OG images,
 404, favicon. Local production build (`npm run build && npm run preview`). Capture the
-screenshot/recording set for private showing.
+screenshot/recording set.
 > 🔖 CHECKPOINT: Lighthouse mobile ≥ 90/95 against the local preview; screenshots folder done.
 
---- PARKED UNTIL MALITHI SAYS "GO LIVE" ---
-
-**Phase 6b · Deploy (parked)** — connect the private repo to Vercel, optional
+**Phase 6b · Deploy** — connect the repo to Vercel, optional
 domain. ~15 minutes; nothing above changes.
 > 🔖 CHECKPOINT: live URL loads; share a plant link, unfurl looks right.
 
-**Phase 7 · The case study (parked)** — portfolio page: before/after hero, 3 design
-decisions explained, link to live demo. Send the Merriwether email. Run the §16
-five-person test.
+**Phase 7 · The case study** — portfolio page: before/after hero, 3 design
+decisions explained, link to live demo. Run the §16 five-person test.
 > 🔖 CHECKPOINT: case study read by one real human who isn't you.
 
 ## 19. Open Questions
@@ -278,7 +246,7 @@ five-person test.
 - Domain name for the demo (subdomain of portfolio vs. standalone)?
 - Does the portfolio itself exist yet as a site to host the case study? (If not, that's
   its own small project and this piece is its first entry.)
-- Merriwether's answer (email in Phase 7) determines V2 content scope.
+- Merriwether's permission determines V2 content scope.
 
 ## 20. Words Worth Knowing (session glossary)
 

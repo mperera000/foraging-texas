@@ -8,7 +8,7 @@ https://claude.ai/code/artifact/05a459b2-bbff-43ec-9f72-407811e3ac2e
 **Texas Foraging is a standalone original site** (it began as a redesign study of a
 third-party site; all references to that site and its owner have been removed, and
 nothing new may reference it). **NOT LAUNCHING YET:** build and verify locally only.
-GitHub repo stays private. Never set up hosting, buy domains, email anyone, or
+Never set up hosting, buy domains, email anyone, or
 publish anything for this project without Malithi's explicit go-ahead. (PLAN.md §13a.)
 
 ## Content rules
