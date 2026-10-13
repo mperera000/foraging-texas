@@ -37,7 +37,7 @@ Serif display type, arched photo frames, real photography.
 - **Primary:** potential clients (small businesses / solo experts with dated sites) skimming a portfolio.
 - **Secondary:** the demo must also genuinely work for its fictional user, a Texas forager
   on a phone, in a field, deciding if a berry is worth picking.
-- **The owner:** Dr. Mark "Merriwether" Vorderbruggen. The finished demo gets emailed to him (see §14).
+- **The owner:** Dr. Mark "Merriwether" Vorderbruggen.
 
 ## 5. User Flows
 
@@ -176,18 +176,8 @@ of times over.
 - **Days 1–2:** setup, data layer, 25 entries migrated to open data
 - **Days 3–5:** design system + three page types to mockup parity
 - **Days 6–7:** polish, a11y pass, SEO, local production build
-- **Later, when ready (see §13a):** deploy, case-study page, Merriwether email
+- **Later:** deploy, case-study page
 - Total to "done on my machine": **~1–1.5 weeks** part-time.
-
-## 13a. NOT LAUNCHING YET (current status)
-
-Malithi is not ready to put this site live. Until she says otherwise:
-
-- **Everything is built and verified locally** (`npm run dev` / `npm run build && npm run preview`). The finished site runs entirely on her machine.
-- **GitHub repo stays PRIVATE.** Push for backup, never for publishing. (A private repo is invisible to the world; going public later is one setting.)
-- **No hosting setup, no domain purchase, no Merriwether email, no community posts.** Phases 6b and 7 below are parked.
-- The nice part of the static-site choice: "going live later" is a 15-minute step (connect repo → deploy), and nothing built now has to change. There is no penalty for waiting.
-- **What "done" means for now:** the full site working locally + a folder of screenshots/screen-recording for showing people in person or privately.
 
 ## 14. The Content Gate (do not skip)
 
@@ -195,10 +185,6 @@ Malithi is not ready to put this site live. Until she says otherwise:
 - **Anything public** (deploy, portfolio, artifact shared beyond this session) ships ONLY:
   original write-ups in Malithi's own words + openly licensed photos (Wikimedia Commons /
   USDA), credited, **or** content used with Merriwether's written permission.
-- **The email (send when demo is polished):** short, warm, link to the live demo:
-  "I'm a web developer, longtime fan of the site. I rebuilt it as a design concept.
-  Want it? No strings." Best case: blessing/testimonial/first client story. No reply in
-  2 weeks: publish with the concept disclaimer and swapped content, exactly as built.
 - Footer always carries: "A redesign concept... not the official site" + safety disclaimer.
 
 ## 15. Distribution (the portfolio is the product)
@@ -232,13 +218,10 @@ the case-study framing (not the build) needs work: lead harder with before/after
 
 ## 18. Build Phases with Checkpoints
 
-**Phase 0 · Send-ahead** — Draft (don't yet send) the Merriwether email and park it in
-the repo. *No checkpoint needed.*
-
-**Phase 1 · Foundation** — Astro project, **private** GitHub repo, CLAUDE.md house rules,
+**Phase 1 · Foundation** — Astro project, GitHub repo, CLAUDE.md house rules,
 tokens file from the mockup (colors, Young Serif @font-face, radii). No hosting setup.
 > 🔖 CHECKPOINT: `npm run dev` shows a hello-world page with the tokens applied; repo
-> pushed and confirmed private.
+> pushed.
 
 **Phase 2 · Data layer** — plant schema, 25 entries written in original words from open
 data (USDA PLANTS, field-guide facts), photo pipeline (Commons downloads + credits file).
@@ -259,18 +242,15 @@ empty state. Server-rendered list, JS enhancement for filtering.
 
 **Phase 6 · Polish** — a11y pass, perf pass (image weights!), SEO meta, OG images,
 404, favicon. Local production build (`npm run build && npm run preview`). Capture the
-screenshot/recording set for private showing.
+screenshot/recording set.
 > 🔖 CHECKPOINT: Lighthouse mobile ≥ 90/95 against the local preview; screenshots folder done.
 
---- PARKED UNTIL MALITHI SAYS "GO LIVE" ---
-
-**Phase 6b · Deploy (parked)** — connect the private repo to Vercel, optional
+**Phase 6b · Deploy** — connect the repo to Vercel, optional
 domain. ~15 minutes; nothing above changes.
 > 🔖 CHECKPOINT: live URL loads; share a plant link, unfurl looks right.
 
-**Phase 7 · The case study (parked)** — portfolio page: before/after hero, 3 design
-decisions explained, link to live demo. Send the Merriwether email. Run the §16
-five-person test.
+**Phase 7 · The case study** — portfolio page: before/after hero, 3 design
+decisions explained, link to live demo. Run the §16 five-person test.
 > 🔖 CHECKPOINT: case study read by one real human who isn't you.
 
 ## 19. Open Questions
@@ -278,7 +258,7 @@ five-person test.
 - Domain name for the demo (subdomain of portfolio vs. standalone)?
 - Does the portfolio itself exist yet as a site to host the case study? (If not, that's
   its own small project and this piece is its first entry.)
-- Merriwether's answer (email in Phase 7) determines V2 content scope.
+- Merriwether's permission determines V2 content scope.
 
 ## 20. Words Worth Knowing (session glossary)
 
