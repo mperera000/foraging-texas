@@ -11,10 +11,6 @@ Foragingtexas.com holds twenty years of trusted foraging knowledge trapped in a 
 Blogger layout: a sidebar of ~300 blue text links, no search, no filtering, no mobile
 experience. The content is gold; the container is unusable by modern standards.
 
-**The real problem this project solves:** Malithi needs a portfolio piece that proves to
-future clients she can take a dated, content-heavy site and modernize it, both visually
-and structurally.
-
 ## 2. The Vision
 
 A "living field guide": warm, photographic, and organized around the one question a
@@ -22,21 +18,14 @@ forager actually has: *what's ripening right now?* Design language locked in the
 mockup: cream paper, deep forest green, chartreuse accents, amber color-blocks, Young
 Serif display type, arched photo frames, real photography.
 
-## 3. The Goal (three lines)
-
-1. **Accomplish:** a published portfolio piece with obvious before/after drama that makes
-   a stranger say "I want that done to my site."
-2. **Instead of today:** two shipped projects, neither of which demonstrates the very
-   sellable "modernize an existing site" skill.
-3. **Why now:** client hunting is starting; the portfolio needs its anchor piece.
+## 3. The Goal
 
 **Success test:** show old site + new site to someone for 30 seconds; they get it instantly.
 
 ## 4. Who It's For
 
-- **Primary:** potential clients (small businesses / solo experts with dated sites) skimming a portfolio.
-- **Secondary:** the demo must also genuinely work for its fictional user, a Texas forager
-  on a phone, in a field, deciding if a berry is worth picking.
+- **Primary:** a Texas forager on a phone, in a field, deciding if a berry is worth picking.
+  The demo must genuinely work for that user.
 - **The owner:** Dr. Mark "Merriwether" Vorderbruggen.
 
 ## 5. User Flows
@@ -191,18 +180,17 @@ of times over.
 
 - **First 10 "users":** target clients and peers. Concrete moves, in order:
   1. Publish the case study on the portfolio (before/after opens the page).
-  2. Email Merriwether (owner blessing is the jackpot outcome).
-  3. Post the before/after to one design community (e.g. r/web_design showcase or a
+  2. Post the before/after to one design community (e.g. r/web_design showcase or a
      design Slack/Discord) framed as "unsolicited redesign of a beloved 2008 Blogger site."
-  4. LinkedIn/X post with the two screenshots side by side.
+  3. LinkedIn/X post with the two screenshots side by side.
 - **Growth loop:** none pretended. A portfolio piece grows by being shown; the case-study
   page IS the shareable unit. Metric: inquiries that mention the foraging piece.
 
 ## 16. Riskiest Assumption
 
-"A redesign concept of a niche foraging site will impress general clients."
+"A redesign concept of a niche foraging site will be clear at a glance."
 **Cheap test (before over-polishing):** once the Today page looks real, show it with the
-old site side-by-side to 5 people (ideally 2 small-business owners). If they don't react,
+old site side-by-side to 5 people. If they don't react,
 the case-study framing (not the build) needs work: lead harder with before/after.
 
 ## 17. Before Launch Checklist
